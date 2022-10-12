@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Interstase" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Interstase" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DGLEW_STATIC" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Interstase" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="mingw32" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\glfw3dll.a" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add library="glu32" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\bass.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\jpeg.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libtiff.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libz.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libpng12.dll.a" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/SDL/lib" />
+		</Linker>
+		<Unit filename="Agnomes.cpp" />
+		<Unit filename="Agnomes.h" />
+		<Unit filename="Bruit.cpp" />
+		<Unit filename="Bruit.h" />
+		<Unit filename="Champ_Etoiles.cpp" />
+		<Unit filename="Champ_Etoiles.h" />
+		<Unit filename="Courbe_Bezier_Plan.cpp" />
+		<Unit filename="Courbe_Bezier_Plan.h" />
+		<Unit filename="Credits_Greets.cpp" />
+		<Unit filename="Credits_Greets.h" />
+		<Unit filename="Final.cpp" />
+		<Unit filename="Final.h" />
+		<Unit filename="Fonctions.h" />
+		<Unit filename="FrameBuffers.h" />
+		<Unit filename="GestionShaders.cpp" />
+		<Unit filename="GestionShaders.h" />
+		<Unit filename="Interpolations.cpp" />
+		<Unit filename="Interpolations.h" />
+		<Unit filename="Intro.cpp" />
+		<Unit filename="Intro.h" />
+		<Unit filename="Lumieres.h" />
+		<Unit filename="Matrice4x4.cpp" />
+		<Unit filename="Matrice4x4.h" />
+		<Unit filename="Musique.h" />
+		<Unit filename="Objets3d/AffichagesDebogue.cpp" />
+		<Unit filename="Objets3d/AffichagesDebogue.h" />
+		<Unit filename="Objets3d/ChargeLWO2.cpp" />
+		<Unit filename="Objets3d/ChargeLWO2.h" />
+		<Unit filename="Objets3d/ConvertionLWO2.cpp" />
+		<Unit filename="Objets3d/ConvertionLWO2.h" />
+		<Unit filename="Objets3d/Cosmonaute.cpp" />
+		<Unit filename="Objets3d/Cosmonaute.h" />
+		<Unit filename="Objets3d/Face.cpp" />
+		<Unit filename="Objets3d/Face.h" />
+		<Unit filename="Objets3d/Surface.cpp" />
+		<Unit filename="Objets3d/Surface.h" />
+		<Unit filename="Objets3d/Texture.cpp" />
+		<Unit filename="Objets3d/Texture.h" />
+		<Unit filename="Objets3d/Vecteur.cpp" />
+		<Unit filename="Objets3d/Vecteur.h" />
+		<Unit filename="Objets3d/Volume.cpp" />
+		<Unit filename="Objets3d/Volume.h" />
+		<Unit filename="Objets3d/debug_volume_affiche.cpp" />
+		<Unit filename="Primitives.cpp" />
+		<Unit filename="Primitives.h" />
+		<Unit filename="Raytracer01.cpp" />
+		<Unit filename="Raytracer01.h" />
+		<Unit filename="Sauve_Rendu.cpp" />
+		<Unit filename="Sauve_Rendu.h" />
+		<Unit filename="Shader.cpp" />
+		<Unit filename="Shader.h" />
+		<Unit filename="ShadersDemo.cpp" />
+		<Unit filename="ShadersDemo.h" />
+		<Unit filename="ShadersObjets3d/Shader_Aplat_Brut.cpp" />
+		<Unit filename="ShadersObjets3d/Shader_Aplat_Brut.h" />
+		<Unit filename="ShadersObjets3d/Shader_Couleur_Rugosite.cpp" />
+		<Unit filename="ShadersObjets3d/Shader_Couleur_Rugosite.h" />
+		<Unit filename="ShadersObjets3d/Shader_Eclairage_Base.cpp" />
+		<Unit filename="ShadersObjets3d/Shader_Eclairage_Base.h" />
+		<Unit filename="ShadersObjets3d/Shader_Reflet_eau.cpp" />
+		<Unit filename="ShadersObjets3d/Shader_Reflet_eau.h" />
+		<Unit filename="ShadersObjets3d/Shader_Relief.cpp" />
+		<Unit filename="ShadersObjets3d/Shader_Relief.h" />
+		<Unit filename="ShadersObjets3d/Shader_Rugosite.cpp" />
+		<Unit filename="ShadersObjets3d/Shader_Rugosite.h" />
+		<Unit filename="ShadersObjets3d/Shader_relief_genCones.cpp" />
+		<Unit filename="ShadersObjets3d/Shader_relief_genCones.h" />
+		<Unit filename="ShadersObjets3d/ShadersObjets3d.cpp" />
+		<Unit filename="ShadersObjets3d/ShadersObjets3d.h" />
+		<Unit filename="Sprites_2d.cpp" />
+		<Unit filename="Sprites_2d.h" />
+		<Unit filename="Texgen.cpp" />
+		<Unit filename="Texgen.h" />
+		<Unit filename="TexteMap.cpp" />
+		<Unit filename="TexteMap.h" />
+		<Unit filename="Trajectoire.h" />
+		<Unit filename="Variables.cpp" />
+		<Unit filename="Variables.h" />
+		<Unit filename="Vec2d.h" />
+		<Unit filename="Ville/Elements_Ville.cpp" />
+		<Unit filename="Ville/Elements_Ville.h" />
+		<Unit filename="Ville/Shaders/Lumiere_01.cpp" />
+		<Unit filename="Ville/Shaders/Lumiere_01.h" />
+		<Unit filename="Ville/Shaders/Shader_Face_Observateur.cpp" />
+		<Unit filename="Ville/Shaders/Shader_Face_Observateur.h" />
+		<Unit filename="Ville/Shaders/Shader_Fenetre_01.cpp" />
+		<Unit filename="Ville/Shaders/Shader_Fenetre_01.h" />
+		<Unit filename="Ville/Shaders/Shader_Fenetre_02.cpp" />
+		<Unit filename="Ville/Shaders/Shader_Fenetre_02.h" />
+		<Unit filename="Ville/Shaders/Shader_Fenetre_03.cpp" />
+		<Unit filename="Ville/Shaders/Shader_Fenetre_03.h" />
+		<Unit filename="Ville/Shaders/Shader_Fenetre_04.cpp" />
+		<Unit filename="Ville/Shaders/Shader_Fenetre_04.h" />
+		<Unit filename="Ville/Shaders/Shader_Vitres.cpp" />
+		<Unit filename="Ville/Shaders/Shader_Vitres.h" />
+		<Unit filename="Ville/Shaders/ShadersVille.cpp" />
+		<Unit filename="Ville/Shaders/ShadersVille.h" />
+		<Unit filename="Ville/Ville.cpp" />
+		<Unit filename="Ville/Ville.h" />
+		<Unit filename="chargeurs_images/Image.cpp" />
+		<Unit filename="chargeurs_images/Image.h" />
+		<Unit filename="chargeurs_images/Image_BMP.cpp" />
+		<Unit filename="chargeurs_images/Image_BMP.h" />
+		<Unit filename="chargeurs_images/Image_JPEG.cpp" />
+		<Unit filename="chargeurs_images/Image_JPEG.h" />
+		<Unit filename="chargeurs_images/Image_TIFF.cpp" />
+		<Unit filename="chargeurs_images/Image_TIFF.h" />
+		<Unit filename="chargeurs_images/Image_infos.cpp" />
+		<Unit filename="chargeurs_images/Image_infos.h" />
+		<Unit filename="couleurs.cpp" />
+		<Unit filename="couleurs.h" />
+		<Unit filename="editeur_trajectoire.cpp" />
+		<Unit filename="editeur_trajectoire.h" />
+		<Unit filename="fonctions.cpp" />
+		<Unit filename="frameBuffers.cpp" />
+		<Unit filename="gestion_fichiers.cpp" />
+		<Unit filename="gestion_fichiers.h" />
+		<Unit filename="glew.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glew.h" />
+		<Unit filename="hypnostructure.cpp" />
+		<Unit filename="hypnostructure.h" />
+		<Unit filename="images/FOND-04.JPG" />
+		<Unit filename="images/FOND-05.jpg" />
+		<Unit filename="images/logovale15.jpg" />
+		<Unit filename="lumieres.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mandelbrot.cpp" />
+		<Unit filename="mandelbrot.h" />
+		<Unit filename="musique.cpp" />
+		<Unit filename="repere.cpp" />
+		<Unit filename="repere.h" />
+		<Unit filename="shaders/Ville/face_observateur_fragment.glsl" />
+		<Unit filename="shaders/Ville/face_observateur_vertex.glsl" />
+		<Unit filename="shaders/Ville/fenetre_01_fragment.glsl" />
+		<Unit filename="shaders/Ville/fenetre_01_vertex.glsl" />
+		<Unit filename="shaders/Ville/fenetre_02_fragment.glsl" />
+		<Unit filename="shaders/Ville/fenetre_02_vertex.glsl" />
+		<Unit filename="shaders/Ville/fenetre_03_fragment.glsl" />
+		<Unit filename="shaders/Ville/fenetre_03_vertex.glsl" />
+		<Unit filename="shaders/Ville/fenetre_04_fragment.glsl" />
+		<Unit filename="shaders/Ville/fenetre_04_vertex.glsl" />
+		<Unit filename="shaders/Ville/lumiere_01_fragment.glsl" />
+		<Unit filename="shaders/Ville/lumiere_01_vertex.glsl" />
+		<Unit filename="shaders/Ville/vitres_fragment.glsl" />
+		<Unit filename="shaders/Ville/vitres_vertex.glsl" />
+		<Unit filename="shaders/filtre_HSV.glsl" />
+		<Unit filename="shaders/filtres.glsl" />
+		<Unit filename="shaders/flou_x.glsl" />
+		<Unit filename="shaders/flou_y.glsl" />
+		<Unit filename="shaders/fragment_alphaDist.glsl" />
+		<Unit filename="shaders/fragment_shader_hypnostructure.glsl" />
+		<Unit filename="shaders/fragment_shader_mandelbrot.glsl" />
+		<Unit filename="shaders/fragment_shader_reflec_3i.glsl" />
+		<Unit filename="shaders/fragment_shader_reflec_refrac_1i.glsl" />
+		<Unit filename="shaders/fragment_shader_refrac_2i_reflec_3i.glsl" />
+		<Unit filename="shaders/fragment_shader_refrac_3i.glsl" />
+		<Unit filename="shaders/fragment_shader_spheredance.glsl" />
+		<Unit filename="shaders/fragment_shader_waterworld.glsl" />
+		<Unit filename="shaders/moteur3d/aplat_brut_fragment.glsl" />
+		<Unit filename="shaders/moteur3d/aplat_brut_vertex.glsl" />
+		<Unit filename="shaders/moteur3d/eclairage_base_fragment.glsl" />
+		<Unit filename="shaders/moteur3d/eclairage_base_vertex.glsl" />
+		<Unit filename="shaders/moteur3d/eclairage_phong_fragment.glsl" />
+		<Unit filename="shaders/moteur3d/eclairage_phong_vertex.glsl" />
+		<Unit filename="shaders/moteur3d/reflet_eau_fragment.glsl" />
+		<Unit filename="shaders/moteur3d/reflet_eau_vertex.glsl" />
+		<Unit filename="shaders/moteur3d/relief_fragment.glsl" />
+		<Unit filename="shaders/moteur3d/relief_genCones_fragment.glsl" />
+		<Unit filename="shaders/moteur3d/relief_genCones_vertex.glsl" />
+		<Unit filename="shaders/moteur3d/relief_vertex.glsl" />
+		<Unit filename="shaders/moteur3d/rugosite_couleur_fragment.glsl" />
+		<Unit filename="shaders/moteur3d/rugosite_couleur_vertex.glsl" />
+		<Unit filename="shaders/moteur3d/rugosite_fragment.glsl" />
+		<Unit filename="shaders/moteur3d/rugosite_vertex.glsl" />
+		<Unit filename="shaders/texture_fragment.glsl" />
+		<Unit filename="shaders/texture_vertex.glsl" />
+		<Unit filename="shaders/vertex_alphaDist.glsl" />
+		<Unit filename="shaders/vertex_shader_mandelbrot.glsl" />
+		<Unit filename="shaders/vertex_shader_waterworld.glsl" />
+		<Unit filename="spheredance.cpp" />
+		<Unit filename="spheredance.h" />
+		<Unit filename="texte_final.txt" />
+		<Unit filename="timeline.cpp" />
+		<Unit filename="trajectoire.cpp" />
+		<Unit filename="vec2d.cpp" />
+		<Unit filename="vec2f.cpp" />
+		<Unit filename="vec2f.h" />
+		<Unit filename="vec3f.cpp" />
+		<Unit filename="vec3f.h" />
+		<Unit filename="waterworld.cpp" />
+		<Unit filename="waterworld.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

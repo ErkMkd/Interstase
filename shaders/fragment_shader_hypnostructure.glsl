@@ -1,0 +1,556 @@
+
+//------------
+//Ciel
+#define ZENITH_CR	0
+#define ZENITH_CV	1
+#define ZENITH_CB	2
+
+#define HORIZH_CR	3
+#define HORIZH_CV	4
+#define HORIZH_CB	5
+
+#define HORIZB_CR	6
+#define HORIZB_CV	7
+#define HORIZB_CB	8
+
+#define NADIR_CR	9
+#define NADIR_CV	10
+#define NADIR_CB	11
+
+#define TAILLE_CIEL	12
+//Types d'objets:
+#define OBJTYPE_SOL 0
+#define OBJTYPE_LUM 2
+
+//Structure de définition des objets:
+#define	OBJTYPE	0
+#define POSX 	1
+#define POSY 	2
+#define POSZ 	3
+#define CR	 	4
+#define CV		5
+#define CB		6
+
+//Luminosité:
+#define INTENS	7
+#define ATT 	8
+
+#define TAILLE_LUM		9	//La structure des sources lumineuses s'arrête ici
+
+//Matériau:
+#define DIFF		9
+#define SPEC	10
+#define BRILL	11
+#define TRANSP	12
+#define REFLEC	13
+#define REFRAC	14
+
+//Données supplémentaires pour les textures
+#define C2R		15	//Couleur n°2
+#define C2V		16
+#define C2B		17
+#define CAR_XL	18	//Largeur des carreaux
+#define CAR_ZL	19	//Profondeur
+
+#define TAILLE_OBJ		20
+
+#define NUM_OBJETS		1
+#define NUM_LUM		1
+
+uniform float random_number;
+uniform float temps;
+uniform int numReflec;	//Nombre d'itération de réflections (de 0 à 3)
+uniform int numRefrac;	//Nombre d'itération de réfraction (de 0 à 3)
+uniform mat4 Obs;		//Matrice de l'observateur
+uniform  vec2 ecranDim;	//Dimensions de l'écran
+uniform float distanceFocale;
+uniform float ecran_ratio;
+uniform float distance_brouillard;
+
+uniform float C_ciel[TAILLE_CIEL];
+uniform float L_amb;
+uniform vec3 C_amb;
+
+uniform float L1[TAILLE_LUM];
+
+uniform float objets[TAILLE_OBJ*NUM_OBJETS];
+
+float refrac_amb=1.;//indice de réfraction atmosphérique (au-dessus du sol)
+
+struct Ray
+{
+	vec3 pos;
+	vec3 dir;
+	float refrac_i;	//Indice de réfraction du milieu dans lequel se propage le rayon
+};
+
+struct Intersection
+{
+	float zDist;
+	vec3 P;
+	vec3 N;
+	vec3 reflec;	//Direction du rayon refleté
+	vec3 refrac;	//Direction du rayon réfracté
+	float refrac_i;	//Indice de réfraction après calcul de la réfraction à travers un objet. Ex: pour le sol, la réfraction en sortie n'est pas forcément la même.
+	float l1;	//Intensité de la lumière 1 - ombre portées
+	bool ok;
+	float t;
+
+};
+
+Intersection inter_scene[NUM_OBJETS];	//Les intersections avec les objets de la scène
+Intersection inter_scene_lum[NUM_OBJETS];	//Les intersections des lumières avec les objets de la scène (ombres)
+
+
+vec3 couleur;
+float ZBuffer;
+
+#define EPSILON 1e-2
+#define EPSILON2 1e-4
+
+
+//------------------------------------- Calcul l'intersection avec le sol
+
+void intersection_sol(Ray ray,int id)
+{
+	// le sol n'a pas de repère propre, il est fixe dans l'espace
+	int o=id*TAILLE_OBJ;
+	inter_scene[id].ok=false;
+	if(ray.dir.y<-EPSILON2 || ray.dir.y>EPSILON2)
+	{
+		inter_scene[id].t=-ray.pos.y/ray.dir.y;
+		if(inter_scene[id].t>EPSILON)
+		{
+			inter_scene[id].P=ray.pos+ray.dir*inter_scene[id].t;
+			inter_scene[id].zDist=length(inter_scene[id].P-ray.pos);
+
+			if(inter_scene[id].zDist<ZBuffer)
+			{
+				ZBuffer=inter_scene[id].zDist+EPSILON;
+				inter_scene[id].ok=true;
+			}
+		}
+	}
+}
+
+
+//Servira pour ajouter un effet de bump...
+void calcul_normale_Sol(int id)
+{
+	float amplX=0.3+0.007*cos(inter_scene[id].P.x*0.2+temps*1.1589);
+	float amplY=0.2+0.003*sin(inter_scene[id].P.z*0.3+temps*1.83);
+	float perturbX=(amplX*cos(inter_scene[id].P.x*0.09+temps*2.4568));
+	float perturbZ=(amplY*cos(inter_scene[id].P.z*0.1+temps*4.912));
+	float rx=sin(perturbX);
+	float ry=cos(perturbX);
+	inter_scene[id].N=vec3(rx,ry*cos(perturbZ),ry*sin(perturbZ));
+
+}
+
+void calcul_reflec_Sol(int id, Ray ray)
+{
+
+	inter_scene[id].reflec=reflect(ray.dir,inter_scene[id].N);
+}
+
+void calcul_refrac_Sol(int id,Ray ray)
+{
+	int o=id*TAILLE_OBJ;
+	float n;
+	if(ray.pos.y<0.)
+	{
+		inter_scene[id].refrac_i=refrac_amb;
+		inter_scene[id].refrac=refract(normalize(ray.dir),-inter_scene[id].N,      objets[o+REFRAC] / refrac_amb);
+	}
+	else
+	{
+		inter_scene[id].refrac_i=objets[o+REFRAC];
+		inter_scene[id].refrac=refract(normalize(ray.dir),inter_scene[id].N,      ray.refrac_i/objets[o+REFRAC] );
+	}
+}
+
+
+void intersection_sol_lum(Ray ray,int id)
+{
+	// le sol n'a pas de repère propre, il est fixe dans l'espace
+	inter_scene_lum[id].ok=false;
+	if(ray.dir.y<-EPSILON2 || ray.dir.y>EPSILON2)
+	{
+		inter_scene_lum[id].t=-ray.pos.y/ray.dir.y;
+		if(inter_scene_lum[id].t>EPSILON && inter_scene_lum[id].t<1.) inter_scene_lum[id].ok=true;
+	}
+}
+
+
+
+//Calcul les intersections d'un rayon avec les objets de la scène
+//Renvoi l'identifiant de l'objet impacté, -1 si aucun objet impacté
+
+
+int calcul_intersections_sans_ombres(Ray ray)
+{
+	ZBuffer=100000.;
+	/// ATTENTION  dans un souci d'optimisation, la position des objets dans la table doit être connue du programme
+	intersection_sol(ray,0);
+
+	int n,l;
+	for (n=0;n<NUM_OBJETS;)
+	{
+		if(inter_scene[n].ok && inter_scene[n].zDist<=ZBuffer)
+		{
+			inter_scene[n].l1=1.;
+			return n;
+		}
+		n++;
+	}
+	return -1;
+}
+
+int calcul_intersections(Ray ray)
+{
+	ZBuffer=100000.;
+	/// ATTENTION  dans un souci d'optimisation, la position des objets dans la table doit être connue du programme
+	intersection_sol(ray,0);
+
+	int n,l;
+	for (n=0;n<NUM_OBJETS;)
+	{
+		if(inter_scene[n].ok && inter_scene[n].zDist<=ZBuffer)
+		{
+			//Intersection avec les sources lumineuses:
+
+			inter_scene[n].l1=1.;
+
+			Ray rayLum;
+			rayLum.pos=inter_scene[n].P;
+			rayLum.dir=vec3(L1[POSX],L1[POSY],L1[POSZ])-rayLum.pos;
+			ZBuffer=100000.;
+
+			intersection_sol_lum(rayLum,0);
+
+			for (l=0;l<NUM_OBJETS;)
+			{
+				if(inter_scene_lum[l].ok)
+				{
+					inter_scene[n].l1=max(inter_scene[n].l1-(1.-objets[l*TAILLE_OBJ+TRANSP]),0.);
+				}
+				l++;
+			}
+
+			return n;
+		}
+		n++;
+	}
+	return -1;
+}
+
+
+//-------- Couleur diffuse renvoyée par une source ponctuelle
+vec3 calcul_diffusion_ponctuelle(vec3 point, vec3 normale,float lum[TAILLE_LUM])
+{
+	vec3 dir=point;
+	dir=point-vec3(lum[POSX],lum[POSY],lum[POSZ]);
+	float Nd=length(dir);
+	float i=max(-(dir.x*normale.x+dir.y*normale.y+dir.z*normale.z)/Nd,0.);
+	return vec3(lum[CR],lum[CV],lum[CB])*i*lum[INTENS]*min(1./(lum[ATT]*Nd),1.);
+}
+
+
+//-------- Couleur spéculaire renvoyée par une source
+// Nous sommes dans le repère absolu.
+vec3 calcul_speculaire(vec3 point, vec3 normale,vec3 posObs, float brillance,float lum[TAILLE_LUM])
+{
+	vec3 direction_L=point-vec3(lum[POSX],lum[POSY],lum[POSZ]);
+	vec3 direction_O=point-posObs;
+	float Nd=length(direction_L);
+	float Np=length(direction_O);
+	vec3 reflet=reflect(direction_L,normale);
+	float i=max(-(direction_O.x*reflet.x+direction_O.y*reflet.y+direction_O.z*reflet.z)/(Np*Nd),0.);
+	i=pow(i,brillance);
+	return vec3(lum[CR],lum[CV],lum[CB])*i*lum[INTENS]*min(1./(lum[ATT]*Nd),1.);
+}
+
+
+//Calcul l'éclairage du sol:
+vec3 renvoi_couleur_sol(int id,Ray ray)
+{
+	vec3 c;
+	vec3 lum_amb;	//Eclairage ambiant sur l'objet
+	vec3 lum_diff;
+	vec3 lum_spec;
+	int o=id*TAILLE_OBJ;
+
+	//--------Couleur en fonction de la texture:
+	vec3 co;
+	int xBloc=round(inter_scene[id].P.x/objets[o+CAR_XL]);
+	int zBloc=round(inter_scene[id].P.z/objets[o+CAR_ZL]);
+	xBloc&=1;
+	zBloc&=1;
+	if (xBloc==0)
+	{
+		if(zBloc==0)co=vec3(objets[o+CR],objets[o+CV],objets[o+CB]);
+		else {co=vec3(objets[o+C2R],objets[o+C2V],objets[o+C2B]);}
+	}
+	else
+	{
+		if(zBloc==0){co=vec3(objets[o+C2R],objets[o+C2V],objets[o+C2B]);}
+		else co=vec3(objets[o+CR],objets[o+CV],objets[o+CB]);
+	}
+
+	//--------
+
+	lum_amb=co*C_amb*L_amb;
+
+	lum_diff=calcul_diffusion_ponctuelle(inter_scene[id].P,inter_scene[id].N,L1)*inter_scene[id].l1;
+
+	lum_spec=calcul_speculaire(inter_scene[id].P,inter_scene[id].N,ray.pos,objets[o+BRILL],L1)*inter_scene[id].l1;
+	c=clamp(
+			(co*lum_diff*objets[o+DIFF]	 + lum_amb )
+			* (1.-objets[o+REFLEC]) * (1.-objets[o+TRANSP])
+			+ lum_spec*objets[o+SPEC]
+			,0.,1.);
+	return c;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+//	Distributeur des fonctions de calcul de couleur selon l'identifiant de l'objet
+//-------------------------------------------------------------------------------------------------------------
+vec3 calcul_couleur_intersection(int id,Ray ray)
+{
+	vec3 c;
+	switch (id)
+	{
+		case 0:calcul_normale_Sol(id);c=renvoi_couleur_sol(id,ray);break;
+		default:break;
+	}
+	return c;
+}
+
+void calcul_reflection(int id, Ray ray)
+{
+	switch (id)
+	{
+		case 0:calcul_reflec_Sol(id,ray);break;
+		default:break;
+	}
+}
+
+void calcul_refraction(int id, Ray ray)
+{
+	switch (id)
+	{
+		case 0:calcul_refrac_Sol(id,ray);break;
+		default:break;
+	}
+}
+
+//------------------------------------------------------------------------
+//		Entrée
+//------------------------------------------------------------------------
+
+vec3 couleur_ciel;
+vec3 couleur_reflet1;
+vec3 couleur_reflet2;
+vec3 couleur_reflet3;
+
+vec3 couleur_refrac1;
+vec3 couleur_refrac2;
+vec3 couleur_refrac3;
+
+void main( void )
+{
+		Ray rayRefl,rayRefr,RayObs,RayAbs;
+		float reflec_i1,reflec_i2,reflec_i3;
+		float transp_i1,transp_i2,transp_i3;
+
+        //Calcul le vecteur directeur du rayon dans le repère de l'observateur:
+                float x=gl_FragCoord.x-ecranDim.x/2.;
+                float y=(gl_FragCoord.y-ecranDim.y/2.)*ecran_ratio;
+
+
+                RayObs.pos=vec3(0.,0.,0.);
+                RayObs.dir=vec3(x/1000.,y/1000.,distanceFocale/1000.);
+
+
+	//Calcul la position et le vecteur directeur du rayon dans l'espace absolu (pour le moment l'observateur est dans le même repère que l'espace)
+
+		RayAbs.pos=(Obs*vec4(RayObs.pos,1.)).xyz;
+		RayAbs.dir=(Obs*vec4(RayObs.dir,1.)).xyz-RayAbs.pos;
+
+		if(RayAbs.pos.y>=0.)
+			RayAbs.refrac_i=refrac_amb;	/// CALCULER L'INDICE DE REFRACTION AU NIVEAU DE L'API (dans quel milieu est l'observateur?)
+		else
+			RayAbs.refrac_i=objets[REFRAC];
+
+	//Couleur du ciel:
+		float alphaRay=min(acos(dot(normalize(vec3(RayAbs.dir.x,0.,RayAbs.dir.z)),normalize(RayAbs.dir)))/(1.5708/1.),1.);
+		if(RayAbs.dir.y<-EPSILON2)
+		{
+			couleur_ciel=vec3(
+							C_ciel[NADIR_CR]*alphaRay+C_ciel[HORIZB_CR]*(1.-alphaRay),
+							C_ciel[NADIR_CV]*alphaRay+C_ciel[HORIZB_CV]*(1.-alphaRay),
+							C_ciel[NADIR_CB]*alphaRay+C_ciel[HORIZB_CB]*(1.-alphaRay)
+							);
+			//couleur_ciel=vec3(C_ciel[NADIR_CR],C_ciel[NADIR_CV],C_ciel[NADIR_CB]);
+
+		}
+		else if(RayAbs.dir.y>=-EPSILON2 && RayAbs.dir.y<EPSILON2)
+		{
+			couleur_ciel=vec3(C_ciel[HORIZB_CR],C_ciel[HORIZB_CV],C_ciel[HORIZB_CB]);
+		}
+		else
+		{
+			couleur_ciel=vec3(
+							C_ciel[ZENITH_CR]*alphaRay+C_ciel[HORIZH_CR]*(1.-alphaRay),
+							C_ciel[ZENITH_CV]*alphaRay+C_ciel[HORIZH_CV]*(1.-alphaRay),
+							C_ciel[ZENITH_CB]*alphaRay+C_ciel[HORIZH_CB]*(1.-alphaRay)
+							);
+			//couleur_ciel=vec3(C_ciel[ZENITH_CR],C_ciel[ZENITH_CV],C_ciel[ZENITH_CB]);
+
+		}
+		couleur=couleur_ciel;
+
+
+	//------------Calcul les intersections du rayon avec les objets:
+	int id;
+							float distance_objet=1000000.;
+	id=calcul_intersections(RayAbs);
+
+
+	//Calcul la couleur du pixel:
+		if(id>=0)
+		{
+							distance_objet=inter_scene[id].zDist;
+
+			couleur=calcul_couleur_intersection(id,RayAbs);
+			Intersection inter_mem=inter_scene[id];
+			int id_mem=id;
+
+			if(objets[id*TAILLE_OBJ+TRANSP]>0. && numRefrac>0)
+			{
+				couleur_refrac1=couleur_ciel;
+				calcul_refraction(id,RayAbs);	//Renvoie le rayon à la sortie de l'objet...
+
+				rayRefr.pos=inter_scene[id].P;
+				rayRefr.dir=inter_scene[id].refrac;
+				rayRefr.refrac_i=inter_scene[id].refrac_i;
+
+				transp_i1=objets[id*TAILLE_OBJ+TRANSP];
+
+				id=calcul_intersections(rayRefr);
+
+				if(id>=0)
+				{
+					couleur_refrac1=calcul_couleur_intersection(id,rayRefr);
+
+					//2ème passage réflection:
+					/*
+					if(objets[id*TAILLE_OBJ+TRANSP]>0. && numRefrac>1)
+					{
+						couleur_refrac2=couleur_ciel;
+						calcul_refraction(id,rayRefr);
+						rayRefr.pos=inter_scene[id].P;
+						rayRefr.dir=inter_scene[id].refrac;
+						rayRefr.refrac_i=inter_scene[id].refrac_i;
+						transp_i2=objets[id*TAILLE_OBJ+TRANSP];
+
+						id=calcul_intersections_sans_ombres(rayRefr);
+
+						if(id>=0)
+						{
+							couleur_refrac2=calcul_couleur_intersection(id,rayRefr);
+
+							//3ème passage réflection:
+
+							if(objets[id*TAILLE_OBJ+TRANSP]>0. && numRefrac>2)
+							{
+								couleur_refrac3=couleur_ciel;
+								calcul_refraction(id,rayRefr);
+								rayRefr.pos=inter_scene[id].P;
+								rayRefr.dir=inter_scene[id].refrac;
+								rayRefr.refrac_i=inter_scene[id].refrac_i;
+								transp_i3=objets[id*TAILLE_OBJ+TRANSP];
+
+								id=calcul_intersections_sans_ombres(rayRefr);
+
+								if(id>=0) couleur_refrac3=calcul_couleur_intersection(id,rayRefr);
+
+								couleur+=couleur_refrac3*transp_i3*transp_i2*transp_i1;
+							}
+
+						}
+						couleur+=couleur_refrac2*transp_i2*transp_i1;
+					}
+					*/
+				}
+				couleur+=couleur_refrac1*transp_i1;
+			}
+
+			id=id_mem;
+			inter_scene[id]=inter_mem;
+
+
+			if(objets[id*TAILLE_OBJ+REFLEC]>0. && numReflec>0)
+			{
+				couleur_reflet1=couleur_ciel;
+				calcul_reflection(id,RayAbs);
+				rayRefl.pos=inter_scene[id].P;
+				rayRefl.dir=inter_scene[id].reflec;
+
+				reflec_i1=objets[id*TAILLE_OBJ+REFLEC];
+
+				id=calcul_intersections(rayRefl);
+
+				if(id>=0)
+				{
+					couleur_reflet1=calcul_couleur_intersection(id,rayRefl);
+
+					//2ème passage réflection:
+
+					if(objets[id*TAILLE_OBJ+REFLEC]>0. && numReflec>1)
+					{
+						couleur_reflet2=couleur_ciel;
+						calcul_reflection(id,rayRefl);
+						rayRefl.pos=inter_scene[id].P;
+						rayRefl.dir=inter_scene[id].reflec;
+						reflec_i2=objets[id*TAILLE_OBJ+REFLEC];
+
+						id=calcul_intersections_sans_ombres(rayRefl);
+						if(id>=0)
+						{
+							couleur_reflet2=calcul_couleur_intersection(id,rayRefl);
+
+							//3ème passage réflection:
+
+							if(objets[id*TAILLE_OBJ+REFLEC]>0. && numReflec>2)
+							{
+								couleur_reflet3=couleur_ciel;
+								calcul_reflection(id,rayRefl);
+								rayRefl.pos=inter_scene[id].P;
+								rayRefl.dir=inter_scene[id].reflec;
+								reflec_i3=objets[id*TAILLE_OBJ+REFLEC];
+
+								id=calcul_intersections_sans_ombres(rayRefl);
+								if(id>=0)couleur_reflet3=calcul_couleur_intersection(id,rayRefl);
+								couleur+=couleur_reflet3*reflec_i3*reflec_i2*reflec_i1;
+							}
+						}
+
+						couleur+=couleur_reflet2*reflec_i2*reflec_i1;
+					}
+				}
+				couleur+=couleur_reflet1*reflec_i1;
+			}
+		}
+
+		//1er passage de réflection:
+		//Brouillard:
+		if(distance_objet>distance_brouillard)couleur=couleur_ciel;
+		else
+		{
+			distance_objet/=distance_brouillard;
+			couleur=couleur*(1.-distance_objet)+couleur_ciel*distance_objet;
+		}
+
+        gl_FragColor = vec4(couleur,1.);
+}

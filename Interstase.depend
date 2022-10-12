@@ -1,0 +1,3342 @@
+# depslib dependency file v1.0
+1387722552 source:h:\programmation\c++\new folder\fonctions.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"Gestion_Shaders.cpp"
+
+1387722333 h:\programmation\c++\new folder\gestion_shaders.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+
+1387722333 source:h:\programmation\c++\new folder\gestion_shaders.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+
+1393157614 source:h:\programmation\c++\raytracer_01\fonctions.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"variables.cpp"
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"musique.cpp"
+	"frameBuffers.cpp"
+	"Gestion_Shaders.cpp"
+
+1390159852 h:\programmation\c++\raytracer_01\gestion_shaders.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"variables.cpp"
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+
+1390159852 source:h:\programmation\c++\raytracer_01\gestion_shaders.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"variables.cpp"
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+
+1393371808 source:h:\programmation\c++\raytracer_01\main.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	"math.h"
+	"variables.cpp"
+	"musique.cpp"
+	"frameBuffers.cpp"
+	"fonctions.cpp"
+	"waterworld.cpp"
+	"mandelbrot.cpp"
+	"spheredance.cpp"
+	"hypnostructure.cpp"
+	"editeur_trajectoire.cpp"
+	"repere.cpp"
+	"bass/bass.h"
+
+1393157614 h:\programmation\c++\raytracer_01\fonctions.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"variables.cpp"
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"musique.cpp"
+	"frameBuffers.cpp"
+	"Gestion_Shaders.cpp"
+
+1387727289 h:\programmation\c++\raytracer_01\scene.cpp
+
+1387727289 source:h:\programmation\c++\raytracer_01\scene.cpp
+
+1388345014 h:\programmation\c++\raytracer_01\matrice4x4.cpp
+	"GL/GL.h"
+	<iostream>
+
+1388345014 source:h:\programmation\c++\raytracer_01\matrice4x4.cpp
+	"GL/GL.h"
+	<iostream>
+
+1390002482 source:h:\programmation\c++\raytracer_01\framebuffers.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	"variables.cpp"
+
+1390002482 h:\programmation\c++\raytracer_01\framebuffers.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	"variables.cpp"
+
+1393107957 h:\programmation\c++\raytracer_01\waterworld.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"variables.cpp"
+	"fonctions.cpp"
+	"math.h"
+
+1393107957 source:h:\programmation\c++\raytracer_01\waterworld.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"variables.cpp"
+	"fonctions.cpp"
+	"math.h"
+
+1393111678 h:\programmation\c++\raytracer_01\variables.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"matrice4x4.cpp"
+
+1393111678 source:h:\programmation\c++\raytracer_01\variables.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"matrice4x4.cpp"
+
+1393107943 h:\programmation\c++\raytracer_01\spheredance.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"variables.cpp"
+	"fonctions.cpp"
+	"math.h"
+
+1393107943 source:h:\programmation\c++\raytracer_01\spheredance.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"variables.cpp"
+	"fonctions.cpp"
+	"math.h"
+
+1393107996 source:h:\programmation\c++\raytracer_01\mandelbrot.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"variables.cpp"
+	"fonctions.cpp"
+	"couleurs.cpp"
+	"math.h"
+
+1393107996 h:\programmation\c++\raytracer_01\mandelbrot.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"variables.cpp"
+	"fonctions.cpp"
+	"couleurs.cpp"
+	"math.h"
+
+1390077135 h:\programmation\c++\raytracer_01\musique.cpp
+	"variables.cpp"
+	"bass/bass.h"
+
+1390077135 source:h:\programmation\c++\raytracer_01\musique.cpp
+	"variables.cpp"
+	"bass/bass.h"
+
+1390163068 h:\programmation\c++\raytracer_01\couleurs.cpp
+	<stdlib.h>
+	<iostream>
+
+1390163068 source:h:\programmation\c++\raytracer_01\couleurs.cpp
+	<stdlib.h>
+	<iostream>
+
+1393157809 source:h:\programmation\c++\raytracer_01\editeur_trajectoire.cpp
+	<stdlib.h>
+	"trajectoire.cpp"
+
+1390601809 h:\programmation\c++\raytracer_01\trajectoire.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"gestion_fichiers.cpp"
+
+1390601377 h:\programmation\c++\raytracer_01\gestion_fichiers.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+
+1390601377 source:h:\programmation\c++\raytracer_01\gestion_fichiers.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+
+1390601809 source:h:\programmation\c++\raytracer_01\trajectoire.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"gestion_fichiers.cpp"
+
+1390952465 source:h:\programmation\c++\raytracer_01\lumieres.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+
+1393371968 h:\programmation\c++\raytracer_01\hypnostructure.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"variables.cpp"
+	"fonctions.cpp"
+	"lumieres.cpp"
+	"repere.cpp"
+
+1390952465 h:\programmation\c++\raytracer_01\lumieres.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+
+1393371968 source:h:\programmation\c++\raytracer_01\hypnostructure.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"variables.cpp"
+	"fonctions.cpp"
+	"lumieres.cpp"
+	"repere.cpp"
+
+1393157809 h:\programmation\c++\raytracer_01\editeur_trajectoire.cpp
+	<stdlib.h>
+	"trajectoire.cpp"
+
+1393191498 h:\programmation\c++\raytracer_01\repere.cpp
+
+1393191498 source:h:\programmation\c++\raytracer_01\repere.cpp
+
+1409849917 source:f:\programmation\c++\raytracer_01\couleurs.cpp
+	"couleurs.h"
+
+1410792882 source:f:\programmation\c++\raytracer_01\editeur_trajectoire.cpp
+	"editeur_trajectoire.h"
+
+1409336346 f:\programmation\c++\raytracer_01\trajectoire.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"gestion_fichiers.h"
+
+1409244973 f:\programmation\c++\raytracer_01\gestion_fichiers.cpp
+	"gestion_fichiers.h"
+
+1410792274 source:f:\programmation\c++\raytracer_01\fonctions.cpp
+	"Fonctions.h"
+
+1409330932 f:\programmation\c++\raytracer_01\variables.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"Matrice4x4.h"
+	"chargeurs_images/Image.h"
+	"Objets3d/ChargeLWO2.h"
+
+1408572162 f:\programmation\c++\raytracer_01\matrice4x4.cpp
+	"GL/GL.h"
+	<iostream>
+
+1408564253 f:\programmation\c++\raytracer_01\musique.cpp
+	"bass/bass.h"
+	<iostream>
+
+1409340009 f:\programmation\c++\raytracer_01\framebuffers.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	"Variables.h"
+
+1409340815 f:\programmation\c++\raytracer_01\gestion_shaders.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"Variables.h"
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+
+1410713208 source:f:\programmation\c++\raytracer_01\framebuffers.cpp
+	"FrameBuffers.h"
+
+1409244973 source:f:\programmation\c++\raytracer_01\gestion_fichiers.cpp
+	"gestion_fichiers.h"
+
+1409340815 source:f:\programmation\c++\raytracer_01\gestion_shaders.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"Variables.h"
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+
+1410791229 source:f:\programmation\c++\raytracer_01\hypnostructure.cpp
+	"hypnostructure.h"
+
+1409341157 f:\programmation\c++\raytracer_01\fonctions.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"musique.cpp"
+	"repere.h"
+	"frameBuffers.cpp"
+	"Gestion_Shaders.cpp"
+	"editeur_trajectoire.cpp"
+
+1390952465 f:\programmation\c++\raytracer_01\lumieres.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+
+1408130395 f:\programmation\c++\raytracer_01\repere.cpp
+
+1409507803 source:f:\programmation\c++\raytracer_01\lumieres.cpp
+	"Lumieres.h"
+
+1410792926 source:f:\programmation\c++\raytracer_01\main.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	<algorithm>
+	"math.h"
+	"gestion_fichiers.h"
+	"matrice4x4.h"
+	"chargeurs_images/Image.h"
+	"Musique.h"
+	"repere.h"
+	"Variables.h"
+	"FrameBuffers.h"
+	"fonctions.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"editeur_trajectoire.h"
+	"Objets3d/ShadersObjets3d.h"
+	"bass/bass.h"
+	"timeline.cpp"
+
+1410786975 f:\programmation\c++\raytracer_01\waterworld.cpp
+	"WaterWorld.h"
+
+1410790294 f:\programmation\c++\raytracer_01\mandelbrot.cpp
+	"mandelbrot.h"
+
+1390163068 f:\programmation\c++\raytracer_01\couleurs.cpp
+	<stdlib.h>
+	<iostream>
+
+1410789326 f:\programmation\c++\raytracer_01\spheredance.cpp
+	"spheredance.h"
+
+1410788602 f:\programmation\c++\raytracer_01\hypnostructure.cpp
+	"hypnostructure.h"
+
+1410791415 f:\programmation\c++\raytracer_01\editeur_trajectoire.cpp
+	<stdlib.h>
+	"trajectoire.h"
+
+1410792466 source:f:\programmation\c++\raytracer_01\mandelbrot.cpp
+	"mandelbrot.h"
+
+1409247307 source:f:\programmation\c++\raytracer_01\matrice4x4.cpp
+	"Matrice4x4.h"
+
+1409404485 source:f:\programmation\c++\raytracer_01\musique.cpp
+	"Musique.h"
+
+1409249413 source:f:\programmation\c++\raytracer_01\repere.cpp
+	"repere.h"
+
+1410792162 source:f:\programmation\c++\raytracer_01\spheredance.cpp
+	"spheredance.h"
+
+1409404017 source:f:\programmation\c++\raytracer_01\trajectoire.cpp
+	"Trajectoire.h"
+
+1410792384 source:f:\programmation\c++\raytracer_01\variables.cpp
+	"Variables.h"
+
+1410791834 source:f:\programmation\c++\raytracer_01\waterworld.cpp
+	"WaterWorld.h"
+
+1409336979 source:f:\programmation\c++\raytracer_01\chargeurs_images\image.cpp
+	"Image.h"
+
+1407947277 f:\programmation\c++\raytracer_01\chargeurs_images\image_infos.cpp
+	<iostream>
+
+1407932507 f:\programmation\c++\raytracer_01\chargeurs_images\image_tiff.cpp
+	"tifflib/tiffio.h"
+	"Image_infos.cpp"
+	<string.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1407947251 f:\programmation\c++\raytracer_01\chargeurs_images\image_bmp.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	"../gestion_fichiers.cpp"
+	"Image_infos.cpp"
+
+1407947372 f:\programmation\c++\raytracer_01\chargeurs_images\image_jpeg.cpp
+	<string.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"jpeglib/jpeglib.h"
+	"Image_infos.cpp"
+
+1409336426 source:f:\programmation\c++\raytracer_01\chargeurs_images\image_bmp.cpp
+	"Image_BMP.h"
+
+1409245046 source:f:\programmation\c++\raytracer_01\chargeurs_images\image_infos.cpp
+	"Image_infos.h"
+
+1409336432 source:f:\programmation\c++\raytracer_01\chargeurs_images\image_jpeg.cpp
+	"Image_JPEG.h"
+
+1409337104 source:f:\programmation\c++\raytracer_01\chargeurs_images\image_tiff.cpp
+	"Image_TIFF.h"
+
+1409245032 f:\programmation\c++\raytracer_01\chargeurs_images\image.cpp
+	"Image.h"
+
+1410792905 f:\programmation\c++\raytracer_01\timeline.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	"math.h"
+	"Variables.h"
+	"Musique.h"
+	"fonctions.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"editeur_trajectoire.h"
+	"repere.h"
+	"chargeurs_images/Image.h"
+	"Interpolations.h"
+
+1410792905 source:f:\programmation\c++\raytracer_01\timeline.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	"math.h"
+	"Variables.h"
+	"Musique.h"
+	"fonctions.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"editeur_trajectoire.h"
+	"repere.h"
+	"chargeurs_images/Image.h"
+	"Interpolations.h"
+
+1409247066 f:\programmation\c++\raytracer_01\interpolations.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"Courbe_Bezier_Plan.h"
+
+1408128448 f:\programmation\c++\raytracer_01\courbe_bezier_plan.cpp
+	"vec2d.cpp"
+	"math.h"
+	<iostream>
+
+1408896148 f:\programmation\c++\raytracer_01\vec2d.cpp
+
+1409247237 source:f:\programmation\c++\raytracer_01\courbe_bezier_plan.cpp
+	"Courbe_Bezier_Plan.h"
+
+1410542776 source:f:\programmation\c++\raytracer_01\interpolations.cpp
+	"Interpolations.h"
+
+1409404495 source:f:\programmation\c++\raytracer_01\vec2d.cpp
+	"Vec2d.h"
+
+1408650425 f:\programmation\c++\raytracer_01\chargelwo2.cpp
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"chargeurs_images/Image.cpp"
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+
+1408564608 source:f:\programmation\c++\raytracer_01\chargelwo2.cpp
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"chargeurs_images/Image.cpp"
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+
+1408569849 f:\programmation\c++\raytracer_01\test.cpp
+	"test.h"
+
+1408569644 f:\programmation\c++\raytracer_01\test.h
+
+1410792466 f:\programmation\c++\raytracer_01\variables.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"Matrice4x4.h"
+	"chargeurs_images/Image.h"
+	"Objets3d/ChargeLWO2.h"
+	"Objets3d/ConvertionLWO2.h"
+	"Sprites_2d.h"
+	"TexteMap.h"
+	"Objets3d/Cosmonaute.h"
+	"Raytracer01.h"
+
+1408569849 source:f:\programmation\c++\raytracer_01\test.cpp
+	"test.h"
+
+1408900557 f:\programmation\c++\raytracer_01\objets3d\chargelwo2.cpp
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"../chargeurs_images/Image.cpp"
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+
+1410110887 source:f:\programmation\c++\raytracer_01\objets3d\chargelwo2.cpp
+	"ChargeLWO2.h"
+
+1408876252 f:\programmation\c++\raytracer_01\objets3d\shaders.cpp
+	"GestionShaders.cpp"
+	"Bruit.cpp"
+	"Shaders/Shader_Couleur_Rugosite.cpp"
+	"Shaders/Shader_Eclairage_Base.cpp"
+	"Shaders/Shader_Rugosite.cpp"
+	"Shaders/Shader_Aplat_Brut.cpp"
+
+1408907568 f:\programmation\c++\raytracer_01\objets3d\gestionshaders.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1408899250 f:\programmation\c++\raytracer_01\objets3d\bruit.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1408876192 f:\programmation\c++\raytracer_01\objets3d\shaders\shader_couleur_rugosite.cpp
+	"Shader.cpp"
+
+1408908938 f:\programmation\c++\raytracer_01\objets3d\shaders\shader.cpp
+	"../GestionShaders.cpp"
+
+1408876209 f:\programmation\c++\raytracer_01\objets3d\shaders\shader_eclairage_base.cpp
+	"Shader.cpp"
+
+1408876219 f:\programmation\c++\raytracer_01\objets3d\shaders\shader_rugosite.cpp
+	"Shader.cpp"
+
+1408876228 f:\programmation\c++\raytracer_01\objets3d\shaders\shader_aplat_brut.cpp
+	"Shader.cpp"
+
+1408907438 f:\programmation\c++\raytracer_01\objets3d\volume.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<string>
+	"math.h"
+	"AffichagesDebogue.cpp"
+	"../chargeurs_images/Image.cpp"
+	"../Matrice4x4.cpp"
+	"Vecteur.cpp"
+	"Shaders.cpp"
+	"Face.cpp"
+	"Texture.cpp"
+	"Surface.cpp"
+	"debug_volume_affiche.cpp"
+
+1409433150 f:\programmation\c++\raytracer_01\objets3d\debug_volume_affiche.cpp
+
+1408897493 f:\programmation\c++\raytracer_01\objets3d\volume_init_mode_rendu.cpp
+
+1408897636 f:\programmation\c++\raytracer_01\objets3d\volume_mode_rendu_immediat.cpp
+
+1408897656 f:\programmation\c++\raytracer_01\objets3d\volume_mode_rendu_tableaux.cpp
+
+1408897688 f:\programmation\c++\raytracer_01\objets3d\volume_mode_rendu_liste.cpp
+
+1408900929 f:\programmation\c++\raytracer_01\objets3d\face.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1408901234 f:\programmation\c++\raytracer_01\objets3d\texture.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<vector>
+	"math.h"
+	"../chargeurs_images/Image.cpp"
+
+1408895529 f:\programmation\c++\raytracer_01\objets3d\surface.cpp
+	"Texture.cpp"
+	"Face.cpp"
+	<list>
+
+1408896158 f:\programmation\c++\raytracer_01\objets3d\vec3f.cpp
+
+1408907033 f:\programmation\c++\raytracer_01\objets3d\vecteur.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	"math.h"
+
+1408899263 f:\programmation\c++\raytracer_01\objets3d\affichagesdebogue.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	"math.h"
+
+1409423465 source:f:\programmation\c++\raytracer_01\objets3d\affichagesdebogue.cpp
+	"AffichagesDebogue.h"
+
+1408899250 source:f:\programmation\c++\raytracer_01\objets3d\bruit.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1410113377 source:f:\programmation\c++\raytracer_01\objets3d\convertionlwo2.cpp
+	"ConvertionLWO2.h"
+
+1409433150 source:f:\programmation\c++\raytracer_01\objets3d\debug_volume_affiche.cpp
+
+1409423773 source:f:\programmation\c++\raytracer_01\objets3d\face.cpp
+	"Face.h"
+
+1408907568 source:f:\programmation\c++\raytracer_01\objets3d\gestionshaders.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1408876252 source:f:\programmation\c++\raytracer_01\objets3d\shaders.cpp
+	"GestionShaders.cpp"
+	"Bruit.cpp"
+	"Shaders/Shader_Couleur_Rugosite.cpp"
+	"Shaders/Shader_Eclairage_Base.cpp"
+	"Shaders/Shader_Rugosite.cpp"
+	"Shaders/Shader_Aplat_Brut.cpp"
+
+1409421241 source:f:\programmation\c++\raytracer_01\objets3d\shaders\shader.cpp
+	"Shader.h"
+
+1409422040 source:f:\programmation\c++\raytracer_01\objets3d\shaders\shader_aplat_brut.cpp
+	"Shader_Aplat_Brut.h"
+
+1409422049 source:f:\programmation\c++\raytracer_01\objets3d\shaders\shader_couleur_rugosite.cpp
+	"Shader_Couleur_Rugosite.h"
+
+1409422056 source:f:\programmation\c++\raytracer_01\objets3d\shaders\shader_eclairage_base.cpp
+	"Shader_Eclairage_Base.h"
+
+1409422066 source:f:\programmation\c++\raytracer_01\objets3d\shaders\shader_rugosite.cpp
+	"Shader_Rugosite.h"
+
+1409424726 source:f:\programmation\c++\raytracer_01\objets3d\surface.cpp
+	"Surface.h"
+
+1409424127 source:f:\programmation\c++\raytracer_01\objets3d\texture.cpp
+	"Texture.h"
+
+1408896158 source:f:\programmation\c++\raytracer_01\objets3d\vec3f.cpp
+
+1409423306 source:f:\programmation\c++\raytracer_01\objets3d\vecteur.cpp
+	"Vecteur.h"
+
+1408907335 source:f:\programmation\c++\raytracer_01\objets3d\volume_init_mode_rendu.cpp
+
+1410114136 source:f:\programmation\c++\raytracer_01\objets3d\volume.cpp
+	"Volume.h"
+	"debug_volume_affiche.cpp"
+
+1410110931 f:\programmation\c++\raytracer_01\objets3d\chargelwo2.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"../chargeurs_images/Image.h"
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+
+1409244913 f:\programmation\c++\raytracer_01\gestion_fichiers.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+
+1409336524 f:\programmation\c++\raytracer_01\chargeurs_images\image.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<math.h>
+	"Image_infos.h"
+	"Image_TIFF.h"
+	"Image_BMP.h"
+	"Image_JPEG.h"
+
+1409244100 f:\programmation\c++\raytracer_01\chargeurs_images\image_infos.h
+	<iostream>
+
+1409336496 f:\programmation\c++\raytracer_01\chargeurs_images\image_tiff.h
+	"tifflib/tiffio.h"
+	"Image_infos.h"
+	<string.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1409336486 f:\programmation\c++\raytracer_01\chargeurs_images\image_bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	"../gestion_fichiers.h"
+	"Image_infos.h"
+
+1409336493 f:\programmation\c++\raytracer_01\chargeurs_images\image_jpeg.h
+	<string.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"jpeglib/jpeglib.h"
+	"Image_infos.h"
+
+1409246019 f:\programmation\c++\raytracer_01\matrice4x4.h
+	"GL/GL.h"
+	<iostream>
+
+1409404224 f:\programmation\c++\raytracer_01\courbe_bezier_plan.h
+	"Vec2d.h"
+	"math.h"
+	<iostream>
+
+1410542801 f:\programmation\c++\raytracer_01\interpolations.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"Courbe_Bezier_Plan.h"
+
+1409249368 f:\programmation\c++\raytracer_01\repere.h
+
+1409849950 f:\programmation\c++\raytracer_01\couleurs.h
+	<stdlib.h>
+	<iostream>
+
+1410712788 f:\programmation\c++\raytracer_01\framebuffers.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	"Variables.h"
+
+1410792873 f:\programmation\c++\raytracer_01\fonctions.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"Musique.h"
+	"repere.h"
+	"FrameBuffers.h"
+	"ShadersDemo.h"
+	"HypnoStructure.h"
+	"WaterWorld.h"
+	"SphereDance.h"
+	"Mandelbrot.h"
+	"editeur_trajectoire.h"
+
+1409403022 f:\programmation\c++\raytracer_01\trajectoire.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"gestion_fichiers.h"
+
+1409404175 f:\programmation\c++\raytracer_01\vec2d.h
+
+1409404331 f:\programmation\c++\raytracer_01\musique.h
+	"bass/bass.h"
+	<iostream>
+
+1409405862 f:\programmation\c++\raytracer_01\shadersdemo.h
+	"GestionShaders.h"
+	"Variables.h"
+
+1409421439 f:\programmation\c++\raytracer_01\gestionshaders.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+
+1409507067 f:\programmation\c++\raytracer_01\lumieres.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+
+1409421475 source:f:\programmation\c++\raytracer_01\gestionshaders.cpp
+	"GestionShaders.h"
+
+1410705675 source:f:\programmation\c++\raytracer_01\shadersdemo.cpp
+	"ShadersDemo.h"
+
+1409431905 source:f:\programmation\c++\raytracer_01\bruit.cpp
+	"Bruit.h"
+
+1409421110 f:\programmation\c++\raytracer_01\bruit.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1409421227 f:\programmation\c++\raytracer_01\objets3d\shadersobjets3d.h
+	"../GestionShaders.h"
+	"../Bruit.h"
+	"Shaders/Shader_Couleur_Rugosite.h"
+	"Shaders/Shader_Eclairage_Base.h"
+	"Shaders/Shader_Rugosite.h"
+	"Shaders/Shader_Aplat_Brut.h"
+
+1409421199 f:\programmation\c++\raytracer_01\objets3d\shaders\shader_couleur_rugosite.h
+	"Shader.h"
+
+1409421343 f:\programmation\c++\raytracer_01\objets3d\shaders\shader.h
+	"../../GestionShaders.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<string.h>
+
+1409421205 f:\programmation\c++\raytracer_01\objets3d\shaders\shader_eclairage_base.h
+	"Shader.h"
+
+1409421215 f:\programmation\c++\raytracer_01\objets3d\shaders\shader_rugosite.h
+	"Shader.h"
+
+1409422022 f:\programmation\c++\raytracer_01\objets3d\shaders\shader_aplat_brut.h
+	"Shader.h"
+
+1409422115 source:f:\programmation\c++\raytracer_01\objets3d\shadersobjets3d.cpp
+	"ShadersObjets3d.h"
+
+1409423292 f:\programmation\c++\raytracer_01\objets3d\vecteur.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	"math.h"
+
+1409423482 f:\programmation\c++\raytracer_01\objets3d\affichagesdebogue.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	"math.h"
+
+1409423769 f:\programmation\c++\raytracer_01\objets3d\face.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1409424111 f:\programmation\c++\raytracer_01\objets3d\texture.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<vector>
+	"math.h"
+	"../chargeurs_images/Image.h"
+
+1409424572 f:\programmation\c++\raytracer_01\objets3d\surface.h
+	"Texture.h"
+	"Face.h"
+	<list>
+
+1410183798 f:\programmation\c++\raytracer_01\objets3d\volume.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<string>
+	"math.h"
+	"AffichagesDebogue.h"
+	"../chargeurs_images/Image.h"
+	"../Matrice4x4.h"
+	"Vecteur.h"
+	"Face.h"
+	"Texture.h"
+	"Surface.h"
+	"ShadersObjets3d.h"
+
+1410111975 f:\programmation\c++\raytracer_01\objets3d\convertionlwo2.h
+	"Volume.h"
+	"ChargeLWO2.h"
+
+1409771979 f:\programmation\c++\raytracer_01\sprites_2d.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<string>
+	"chargeurs_images/Image.h"
+
+1409772445 source:f:\programmation\c++\raytracer_01\sprites_2d.cpp
+	"Sprites_2d.h"
+
+1410098041 f:\programmation\c++\raytracer_01\textemap.h
+	"chargeurs_images/Image.h"
+	"gestion_fichiers.h"
+
+1410098166 source:f:\programmation\c++\raytracer_01\textemap.cpp
+	"TexteMap.h"
+
+1410629435 f:\programmation\c++\raytracer_01\objets3d\cosmonaute.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<string>
+	"math.h"
+	"ChargeLWO2.h"
+	"ConvertionLWO2.h"
+	"Volume.h"
+	"../Bruit.h"
+
+1410713748 source:f:\programmation\c++\raytracer_01\objets3d\cosmonaute.cpp
+	"Cosmonaute.h"
+
+1410791738 f:\programmation\c++\raytracer_01\waterworld.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"math.h"
+	"Variables.h"
+	"Interpolations.h"
+	"repere.h"
+	"Fonctions.h"
+	"Objets3d/Volume.h"
+
+1410791170 f:\programmation\c++\raytracer_01\hypnostructure.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"Variables.h"
+	"fonctions.h"
+	"Lumieres.h"
+	"repere.h"
+
+1410792188 f:\programmation\c++\raytracer_01\spheredance.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"math.h"
+
+1410792371 f:\programmation\c++\raytracer_01\mandelbrot.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"couleurs.h"
+	"math.h"
+
+1410790765 f:\programmation\c++\raytracer_01\raytracer01.h
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+
+1410790718 source:f:\programmation\c++\raytracer_01\raytracer01.cpp
+	"Raytracer01.h"
+
+1410792878 f:\programmation\c++\raytracer_01\editeur_trajectoire.h
+	<stdlib.h>
+	"trajectoire.h"
+
+1409431906 source:h:\interstase\bruit.cpp
+	"Bruit.h"
+
+1409421112 h:\interstase\bruit.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1409336980 source:h:\interstase\chargeurs_images\image.cpp
+	"Image.h"
+
+1409336526 h:\interstase\chargeurs_images\image.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<math.h>
+	"Image_infos.h"
+	"Image_TIFF.h"
+	"Image_BMP.h"
+	"Image_JPEG.h"
+
+1409244102 h:\interstase\chargeurs_images\image_infos.h
+	<iostream>
+
+1409336498 h:\interstase\chargeurs_images\image_tiff.h
+	"tifflib/tiffio.h"
+	"Image_infos.h"
+	<string.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1409336488 h:\interstase\chargeurs_images\image_bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	"../gestion_fichiers.h"
+	"Image_infos.h"
+
+1409244914 h:\interstase\gestion_fichiers.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+
+1409336494 h:\interstase\chargeurs_images\image_jpeg.h
+	<string.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"jpeglib/jpeglib.h"
+	"Image_infos.h"
+
+1409336428 source:h:\interstase\chargeurs_images\image_bmp.cpp
+	"Image_BMP.h"
+
+1409245048 source:h:\interstase\chargeurs_images\image_infos.cpp
+	"Image_infos.h"
+
+1409336434 source:h:\interstase\chargeurs_images\image_jpeg.cpp
+	"Image_JPEG.h"
+
+1409337106 source:h:\interstase\chargeurs_images\image_tiff.cpp
+	"Image_TIFF.h"
+
+1409849918 source:h:\interstase\couleurs.cpp
+	"couleurs.h"
+
+1409849952 h:\interstase\couleurs.h
+	<stdlib.h>
+	<iostream>
+
+1409247238 source:h:\interstase\courbe_bezier_plan.cpp
+	"Courbe_Bezier_Plan.h"
+
+1409404226 h:\interstase\courbe_bezier_plan.h
+	"Vec2d.h"
+	"math.h"
+	<iostream>
+
+1409404176 h:\interstase\vec2d.h
+
+1410792884 source:h:\interstase\editeur_trajectoire.cpp
+	"editeur_trajectoire.h"
+
+1410792880 h:\interstase\editeur_trajectoire.h
+	<stdlib.h>
+	"trajectoire.h"
+
+1409403024 h:\interstase\trajectoire.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"gestion_fichiers.h"
+
+1410792276 source:h:\interstase\fonctions.cpp
+	"Fonctions.h"
+
+1410792874 h:\interstase\fonctions.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"Musique.h"
+	"repere.h"
+	"FrameBuffers.h"
+	"ShadersDemo.h"
+	"HypnoStructure.h"
+	"WaterWorld.h"
+	"SphereDance.h"
+	"Mandelbrot.h"
+	"editeur_trajectoire.h"
+
+1409404332 h:\interstase\musique.h
+	"bass/bass.h"
+	<iostream>
+
+1409249370 h:\interstase\repere.h
+
+1410712790 h:\interstase\framebuffers.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	"Variables.h"
+
+1410851248 h:\interstase\variables.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"Matrice4x4.h"
+	"chargeurs_images/Image.h"
+	"Objets3d/ChargeLWO2.h"
+	"Objets3d/ConvertionLWO2.h"
+	"Sprites_2d.h"
+	"TexteMap.h"
+	"Objets3d/Cosmonaute.h"
+	"Raytracer01.h"
+
+1409246020 h:\interstase\matrice4x4.h
+	"GL/GL.h"
+	<iostream>
+
+1410110932 h:\interstase\objets3d\chargelwo2.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"../chargeurs_images/Image.h"
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+
+1410111976 h:\interstase\objets3d\convertionlwo2.h
+	"Volume.h"
+	"ChargeLWO2.h"
+
+1410183800 h:\interstase\objets3d\volume.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<string>
+	"math.h"
+	"AffichagesDebogue.h"
+	"../chargeurs_images/Image.h"
+	"../Matrice4x4.h"
+	"Vecteur.h"
+	"Face.h"
+	"Texture.h"
+	"Surface.h"
+	"ShadersObjets3d.h"
+
+1409423484 h:\interstase\objets3d\affichagesdebogue.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	"math.h"
+
+1409423294 h:\interstase\objets3d\vecteur.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	"math.h"
+
+1409423770 h:\interstase\objets3d\face.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1409424112 h:\interstase\objets3d\texture.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<vector>
+	"math.h"
+	"../chargeurs_images/Image.h"
+
+1409424574 h:\interstase\objets3d\surface.h
+	"Texture.h"
+	"Face.h"
+	<list>
+
+1409421228 h:\interstase\objets3d\shadersobjets3d.h
+	"../GestionShaders.h"
+	"../Bruit.h"
+	"Shaders/Shader_Couleur_Rugosite.h"
+	"Shaders/Shader_Eclairage_Base.h"
+	"Shaders/Shader_Rugosite.h"
+	"Shaders/Shader_Aplat_Brut.h"
+
+1409421440 h:\interstase\gestionshaders.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+
+1409421200 h:\interstase\objets3d\shaders\shader_couleur_rugosite.h
+	"Shader.h"
+
+1409421344 h:\interstase\objets3d\shaders\shader.h
+	"../../GestionShaders.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<string.h>
+
+1409421206 h:\interstase\objets3d\shaders\shader_eclairage_base.h
+	"Shader.h"
+
+1409421216 h:\interstase\objets3d\shaders\shader_rugosite.h
+	"Shader.h"
+
+1409422024 h:\interstase\objets3d\shaders\shader_aplat_brut.h
+	"Shader.h"
+
+1409771980 h:\interstase\sprites_2d.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<string>
+	"chargeurs_images/Image.h"
+
+1410098042 h:\interstase\textemap.h
+	"chargeurs_images/Image.h"
+	"gestion_fichiers.h"
+
+1410629436 h:\interstase\objets3d\cosmonaute.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<string>
+	"math.h"
+	"ChargeLWO2.h"
+	"ConvertionLWO2.h"
+	"Volume.h"
+	"../Bruit.h"
+
+1410790766 h:\interstase\raytracer01.h
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+
+1409405864 h:\interstase\shadersdemo.h
+	"GestionShaders.h"
+	"Variables.h"
+
+1410791172 h:\interstase\hypnostructure.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"Variables.h"
+	"fonctions.h"
+	"Lumieres.h"
+	"repere.h"
+
+1409507068 h:\interstase\lumieres.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+
+1410791740 h:\interstase\waterworld.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"math.h"
+	"Variables.h"
+	"Interpolations.h"
+	"repere.h"
+	"Fonctions.h"
+	"Objets3d/Volume.h"
+
+1410542802 h:\interstase\interpolations.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"Courbe_Bezier_Plan.h"
+
+1410792190 h:\interstase\spheredance.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"math.h"
+
+1410792372 h:\interstase\mandelbrot.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"couleurs.h"
+	"math.h"
+
+1410713210 source:h:\interstase\framebuffers.cpp
+	"FrameBuffers.h"
+
+1409244974 source:h:\interstase\gestion_fichiers.cpp
+	"gestion_fichiers.h"
+
+1409421476 source:h:\interstase\gestionshaders.cpp
+	"GestionShaders.h"
+
+1410791230 source:h:\interstase\hypnostructure.cpp
+	"hypnostructure.h"
+
+1410542778 source:h:\interstase\interpolations.cpp
+	"Interpolations.h"
+
+1409507804 source:h:\interstase\lumieres.cpp
+	"Lumieres.h"
+
+1410792928 source:h:\interstase\main.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	<algorithm>
+	"math.h"
+	"gestion_fichiers.h"
+	"matrice4x4.h"
+	"chargeurs_images/Image.h"
+	"Musique.h"
+	"repere.h"
+	"Variables.h"
+	"FrameBuffers.h"
+	"fonctions.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"editeur_trajectoire.h"
+	"Objets3d/ShadersObjets3d.h"
+	"bass/bass.h"
+	"timeline.cpp"
+
+1410792906 h:\interstase\timeline.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	"math.h"
+	"Variables.h"
+	"Musique.h"
+	"fonctions.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"editeur_trajectoire.h"
+	"repere.h"
+	"chargeurs_images/Image.h"
+	"Interpolations.h"
+
+1410792468 source:h:\interstase\mandelbrot.cpp
+	"mandelbrot.h"
+
+1409247308 source:h:\interstase\matrice4x4.cpp
+	"Matrice4x4.h"
+
+1409404486 source:h:\interstase\musique.cpp
+	"Musique.h"
+
+1409423466 source:h:\interstase\objets3d\affichagesdebogue.cpp
+	"AffichagesDebogue.h"
+
+1410110888 source:h:\interstase\objets3d\chargelwo2.cpp
+	"ChargeLWO2.h"
+
+1410113378 source:h:\interstase\objets3d\convertionlwo2.cpp
+	"ConvertionLWO2.h"
+
+1410713750 source:h:\interstase\objets3d\cosmonaute.cpp
+	"Cosmonaute.h"
+
+1409433152 source:h:\interstase\objets3d\debug_volume_affiche.cpp
+
+1409423774 source:h:\interstase\objets3d\face.cpp
+	"Face.h"
+
+1409421242 source:h:\interstase\objets3d\shaders\shader.cpp
+	"Shader.h"
+
+1409422042 source:h:\interstase\objets3d\shaders\shader_aplat_brut.cpp
+	"Shader_Aplat_Brut.h"
+
+1409422050 source:h:\interstase\objets3d\shaders\shader_couleur_rugosite.cpp
+	"Shader_Couleur_Rugosite.h"
+
+1409422058 source:h:\interstase\objets3d\shaders\shader_eclairage_base.cpp
+	"Shader_Eclairage_Base.h"
+
+1409422068 source:h:\interstase\objets3d\shaders\shader_rugosite.cpp
+	"Shader_Rugosite.h"
+
+1409422116 source:h:\interstase\objets3d\shadersobjets3d.cpp
+	"ShadersObjets3d.h"
+
+1409424728 source:h:\interstase\objets3d\surface.cpp
+	"Surface.h"
+
+1409424128 source:h:\interstase\objets3d\texture.cpp
+	"Texture.h"
+
+1409423308 source:h:\interstase\objets3d\vecteur.cpp
+	"Vecteur.h"
+
+1410114138 source:h:\interstase\objets3d\volume.cpp
+	"Volume.h"
+	"debug_volume_affiche.cpp"
+
+1409433152 h:\interstase\objets3d\debug_volume_affiche.cpp
+
+1410790720 source:h:\interstase\raytracer01.cpp
+	"Raytracer01.h"
+
+1409249414 source:h:\interstase\repere.cpp
+	"repere.h"
+
+1410792164 source:h:\interstase\spheredance.cpp
+	"spheredance.h"
+
+1409772446 source:h:\interstase\sprites_2d.cpp
+	"Sprites_2d.h"
+
+1410098168 source:h:\interstase\textemap.cpp
+	"TexteMap.h"
+
+1410792906 source:h:\interstase\timeline.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	"math.h"
+	"Variables.h"
+	"Musique.h"
+	"fonctions.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"editeur_trajectoire.h"
+	"repere.h"
+	"chargeurs_images/Image.h"
+	"Interpolations.h"
+
+1409404018 source:h:\interstase\trajectoire.cpp
+	"Trajectoire.h"
+
+1409404496 source:h:\interstase\vec2d.cpp
+	"Vec2d.h"
+
+1410792938 source:h:\interstase\waterworld.cpp
+	"WaterWorld.h"
+
+1410851266 source:h:\interstase\shadersdemo.cpp
+	"ShadersDemo.h"
+
+1410851260 source:h:\interstase\variables.cpp
+	"Variables.h"
+
+1427470361 source:f:\programmation\c++\interstase\bruit.cpp
+	"Bruit.h"
+
+1429997428 f:\programmation\c++\interstase\bruit.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1425081787 source:f:\programmation\c++\interstase\chargeurs_images\image.cpp
+	"Image.h"
+
+1429997438 f:\programmation\c++\interstase\chargeurs_images\image.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<math.h>
+	"Image_infos.h"
+	"Image_TIFF.h"
+	"Image_BMP.h"
+	"Image_JPEG.h"
+
+1409244102 f:\programmation\c++\interstase\chargeurs_images\image_infos.h
+	<iostream>
+
+1409336498 f:\programmation\c++\interstase\chargeurs_images\image_tiff.h
+	"tifflib/tiffio.h"
+	"Image_infos.h"
+	<string.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1409336488 f:\programmation\c++\interstase\chargeurs_images\image_bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	"../gestion_fichiers.h"
+	"Image_infos.h"
+
+1409244914 f:\programmation\c++\interstase\gestion_fichiers.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+
+1409336494 f:\programmation\c++\interstase\chargeurs_images\image_jpeg.h
+	<string.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"jpeglib/jpeglib.h"
+	"Image_infos.h"
+
+1409336428 source:f:\programmation\c++\interstase\chargeurs_images\image_bmp.cpp
+	"Image_BMP.h"
+
+1409245048 source:f:\programmation\c++\interstase\chargeurs_images\image_infos.cpp
+	"Image_infos.h"
+
+1409336434 source:f:\programmation\c++\interstase\chargeurs_images\image_jpeg.cpp
+	"Image_JPEG.h"
+
+1409337106 source:f:\programmation\c++\interstase\chargeurs_images\image_tiff.cpp
+	"Image_TIFF.h"
+
+1409849918 source:f:\programmation\c++\interstase\couleurs.cpp
+	"couleurs.h"
+
+1409849952 f:\programmation\c++\interstase\couleurs.h
+	<stdlib.h>
+	<iostream>
+
+1409247238 source:f:\programmation\c++\interstase\courbe_bezier_plan.cpp
+	"Courbe_Bezier_Plan.h"
+
+1409404226 f:\programmation\c++\interstase\courbe_bezier_plan.h
+	"Vec2d.h"
+	"math.h"
+	<iostream>
+
+1409404176 f:\programmation\c++\interstase\vec2d.h
+
+1427315117 source:f:\programmation\c++\interstase\editeur_trajectoire.cpp
+	"editeur_trajectoire.h"
+
+1427132345 f:\programmation\c++\interstase\editeur_trajectoire.h
+	<stdlib.h>
+	"trajectoire.h"
+
+1429997427 f:\programmation\c++\interstase\trajectoire.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"gestion_fichiers.h"
+
+1430062588 source:f:\programmation\c++\interstase\fonctions.cpp
+	"Fonctions.h"
+
+1429997428 f:\programmation\c++\interstase\fonctions.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"Musique.h"
+	"repere.h"
+	"FrameBuffers.h"
+	"ShadersDemo.h"
+	"Intro.h"
+	"HypnoStructure.h"
+	"Final.h"
+	"WaterWorld.h"
+	"SphereDance.h"
+	"Mandelbrot.h"
+	"Ville/Ville.h"
+	"editeur_trajectoire.h"
+
+1425682984 f:\programmation\c++\interstase\musique.h
+	"bass/bass.h"
+	<iostream>
+
+1429997428 f:\programmation\c++\interstase\repere.h
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	"glew.h"
+	<GLFW/glfw3.h>
+	"math.h"
+	"vec3f.h"
+
+1430329981 f:\programmation\c++\interstase\framebuffers.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	"Variables.h"
+
+1430388690 f:\programmation\c++\interstase\variables.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"Matrice4x4.h"
+	"chargeurs_images/Image.h"
+	"Objets3d/ChargeLWO2.h"
+	"Objets3d/ConvertionLWO2.h"
+	"Sprites_2d.h"
+	"TexteMap.h"
+	"Texgen.h"
+	"Objets3d/Cosmonaute.h"
+	"Raytracer01.h"
+	"repere.h"
+
+1424890618 f:\programmation\c++\interstase\matrice4x4.h
+	"GL/GL.h"
+	<iostream>
+
+1429997446 f:\programmation\c++\interstase\objets3d\chargelwo2.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"../glew.h"
+	<GLFW/glfw3.h>
+	"../chargeurs_images/Image.h"
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+
+1410111976 f:\programmation\c++\interstase\objets3d\convertionlwo2.h
+	"Volume.h"
+	"ChargeLWO2.h"
+
+1429997913 f:\programmation\c++\interstase\objets3d\volume.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<string>
+	"math.h"
+	"AffichagesDebogue.h"
+	"../chargeurs_images/Image.h"
+	"../Matrice4x4.h"
+	"Vecteur.h"
+	"Face.h"
+	"Texture.h"
+	"Surface.h"
+	"../Lumieres.h"
+	"../repere.h"
+	"../ShadersObjets3d/ShadersObjets3d.h"
+
+1429997459 f:\programmation\c++\interstase\objets3d\affichagesdebogue.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	"math.h"
+
+1429997468 f:\programmation\c++\interstase\objets3d\vecteur.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	"math.h"
+
+1429997473 f:\programmation\c++\interstase\objets3d\face.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1429997479 f:\programmation\c++\interstase\objets3d\texture.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<vector>
+	"math.h"
+	"../chargeurs_images/Image.h"
+
+1409424574 f:\programmation\c++\interstase\objets3d\surface.h
+	"Texture.h"
+	"Face.h"
+	<list>
+
+1409421228 f:\programmation\c++\interstase\objets3d\shadersobjets3d.h
+	"../GestionShaders.h"
+	"../Bruit.h"
+	"Shaders/Shader_Couleur_Rugosite.h"
+	"Shaders/Shader_Eclairage_Base.h"
+	"Shaders/Shader_Rugosite.h"
+	"Shaders/Shader_Aplat_Brut.h"
+
+1429997428 f:\programmation\c++\interstase\gestionshaders.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+
+1412871045 f:\programmation\c++\interstase\objets3d\shaders\shader_couleur_rugosite.h
+	"../../Shader.h"
+
+1409421344 f:\programmation\c++\interstase\objets3d\shaders\shader.h
+	"../../GestionShaders.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<string.h>
+
+1412871050 f:\programmation\c++\interstase\objets3d\shaders\shader_eclairage_base.h
+	"../../Shader.h"
+
+1412871054 f:\programmation\c++\interstase\objets3d\shaders\shader_rugosite.h
+	"../../Shader.h"
+
+1412871040 f:\programmation\c++\interstase\objets3d\shaders\shader_aplat_brut.h
+	"../../Shader.h"
+
+1430046807 f:\programmation\c++\interstase\sprites_2d.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<string>
+	"chargeurs_images/Image.h"
+
+1426198200 f:\programmation\c++\interstase\textemap.h
+	"chargeurs_images/Image.h"
+	"gestion_fichiers.h"
+
+1429997484 f:\programmation\c++\interstase\objets3d\cosmonaute.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<string>
+	"math.h"
+	"ChargeLWO2.h"
+	"ConvertionLWO2.h"
+	"../Lumieres.h"
+	"Volume.h"
+	"../Bruit.h"
+
+1411993425 f:\programmation\c++\interstase\raytracer01.h
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+
+1430049891 f:\programmation\c++\interstase\shadersdemo.h
+	"GestionShaders.h"
+	"Variables.h"
+
+1429997428 f:\programmation\c++\interstase\hypnostructure.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"Variables.h"
+	"fonctions.h"
+	"Lumieres.h"
+	"repere.h"
+	"vec3f.h"
+	"Primitives.h"
+
+1429997428 f:\programmation\c++\interstase\lumieres.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+
+1429997427 f:\programmation\c++\interstase\waterworld.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"math.h"
+	"Variables.h"
+	"Interpolations.h"
+	"repere.h"
+	"Fonctions.h"
+	"Objets3d/Volume.h"
+	"Agnomes.h"
+	"time.h"
+
+1429997428 f:\programmation\c++\interstase\interpolations.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"Courbe_Bezier_Plan.h"
+
+1429997428 f:\programmation\c++\interstase\spheredance.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"repere.h"
+	"Variables.h"
+	"fonctions.h"
+	"FrameBuffers.h"
+	"Trajectoire.h"
+	"math.h"
+
+1429997427 f:\programmation\c++\interstase\mandelbrot.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"couleurs.h"
+	"Bruit.h"
+	"Champ_Etoiles.h"
+	"math.h"
+
+1430330044 source:f:\programmation\c++\interstase\framebuffers.cpp
+	"FrameBuffers.h"
+	"Fonctions.h"
+
+1409244974 source:f:\programmation\c++\interstase\gestion_fichiers.cpp
+	"gestion_fichiers.h"
+
+1409421476 source:f:\programmation\c++\interstase\gestionshaders.cpp
+	"GestionShaders.h"
+
+1427132317 source:f:\programmation\c++\interstase\hypnostructure.cpp
+	"hypnostructure.h"
+
+1427322399 source:f:\programmation\c++\interstase\interpolations.cpp
+	"Interpolations.h"
+
+1412600966 source:f:\programmation\c++\interstase\lumieres.cpp
+	"Lumieres.h"
+
+1430330052 source:f:\programmation\c++\interstase\main.cpp
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	<algorithm>
+	"math.h"
+	"gestion_fichiers.h"
+	"matrice4x4.h"
+	"chargeurs_images/Image.h"
+	"Musique.h"
+	"repere.h"
+	"Variables.h"
+	"FrameBuffers.h"
+	"fonctions.h"
+	"Intro.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"Final.h"
+	"editeur_trajectoire.h"
+	"Ville/Ville.h"
+	"ShadersObjets3d/ShadersObjets3d.h"
+	"Ville/Shaders/ShadersVille.h"
+	"bass/bass.h"
+	"timeline.cpp"
+
+1430330412 f:\programmation\c++\interstase\timeline.cpp
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	"math.h"
+	"Variables.h"
+	"Musique.h"
+	"fonctions.h"
+	"Intro.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"Final.h"
+	"Ville/Ville.h"
+	"editeur_trajectoire.h"
+	"repere.h"
+	"chargeurs_images/Image.h"
+	"Interpolations.h"
+	"Trajectoire.h"
+	"Credits_Greets.h"
+	"Sauve_Rendu.h"
+
+1430049653 source:f:\programmation\c++\interstase\mandelbrot.cpp
+	"mandelbrot.h"
+
+1424890720 source:f:\programmation\c++\interstase\matrice4x4.cpp
+	"Matrice4x4.h"
+
+1409404486 source:f:\programmation\c++\interstase\musique.cpp
+	"Musique.h"
+
+1409423466 source:f:\programmation\c++\interstase\objets3d\affichagesdebogue.cpp
+	"AffichagesDebogue.h"
+
+1410110888 source:f:\programmation\c++\interstase\objets3d\chargelwo2.cpp
+	"ChargeLWO2.h"
+
+1410113378 source:f:\programmation\c++\interstase\objets3d\convertionlwo2.cpp
+	"ConvertionLWO2.h"
+
+1424985277 source:f:\programmation\c++\interstase\objets3d\cosmonaute.cpp
+	"Cosmonaute.h"
+
+1409433152 source:f:\programmation\c++\interstase\objets3d\debug_volume_affiche.cpp
+
+1409423774 source:f:\programmation\c++\interstase\objets3d\face.cpp
+	"Face.h"
+
+1409421242 source:f:\programmation\c++\interstase\objets3d\shaders\shader.cpp
+	"Shader.h"
+
+1409422042 source:f:\programmation\c++\interstase\objets3d\shaders\shader_aplat_brut.cpp
+	"Shader_Aplat_Brut.h"
+
+1409422050 source:f:\programmation\c++\interstase\objets3d\shaders\shader_couleur_rugosite.cpp
+	"Shader_Couleur_Rugosite.h"
+
+1409422058 source:f:\programmation\c++\interstase\objets3d\shaders\shader_eclairage_base.cpp
+	"Shader_Eclairage_Base.h"
+
+1409422068 source:f:\programmation\c++\interstase\objets3d\shaders\shader_rugosite.cpp
+	"Shader_Rugosite.h"
+
+1409422116 source:f:\programmation\c++\interstase\objets3d\shadersobjets3d.cpp
+	"ShadersObjets3d.h"
+
+1409424728 source:f:\programmation\c++\interstase\objets3d\surface.cpp
+	"Surface.h"
+
+1409424128 source:f:\programmation\c++\interstase\objets3d\texture.cpp
+	"Texture.h"
+
+1409423308 source:f:\programmation\c++\interstase\objets3d\vecteur.cpp
+	"Vecteur.h"
+
+1427061356 source:f:\programmation\c++\interstase\objets3d\volume.cpp
+	"Volume.h"
+	"debug_volume_affiche.cpp"
+
+1409433152 f:\programmation\c++\interstase\objets3d\debug_volume_affiche.cpp
+
+1411993382 source:f:\programmation\c++\interstase\raytracer01.cpp
+	"Raytracer01.h"
+
+1427154180 source:f:\programmation\c++\interstase\repere.cpp
+	"repere.h"
+
+1430050051 source:f:\programmation\c++\interstase\spheredance.cpp
+	"spheredance.h"
+
+1430047607 source:f:\programmation\c++\interstase\sprites_2d.cpp
+	"Sprites_2d.h"
+
+1426200257 source:f:\programmation\c++\interstase\textemap.cpp
+	"TexteMap.h"
+
+1426974372 source:f:\programmation\c++\interstase\trajectoire.cpp
+	"Trajectoire.h"
+
+1409404496 source:f:\programmation\c++\interstase\vec2d.cpp
+	"Vec2d.h"
+
+1430050033 source:f:\programmation\c++\interstase\waterworld.cpp
+	"WaterWorld.h"
+
+1430050162 source:f:\programmation\c++\interstase\shadersdemo.cpp
+	"ShadersDemo.h"
+
+1430329492 source:f:\programmation\c++\interstase\timeline.cpp
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	"math.h"
+	"Variables.h"
+	"Musique.h"
+	"fonctions.h"
+	"Intro.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"Final.h"
+	"Ville/Ville.h"
+	"editeur_trajectoire.h"
+	"repere.h"
+	"chargeurs_images/Image.h"
+	"Interpolations.h"
+	"Trajectoire.h"
+	"Credits_Greets.h"
+	"Sauve_Rendu.h"
+
+1430233410 source:f:\programmation\c++\interstase\variables.cpp
+	"Variables.h"
+
+1429997428 f:\programmation\c++\interstase\intro.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"Champ_Etoiles.h"
+
+1428205023 source:f:\programmation\c++\interstase\intro.cpp
+	"Intro.h"
+
+1428204977 source:f:\programmation\c++\interstase\champ_etoiles.cpp
+	"Champ_etoiles.h"
+
+1429997427 f:\programmation\c++\interstase\champ_etoiles.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"chargeurs_images/Image.h"
+	"vec3f.h"
+
+1426979302 f:\programmation\c++\interstase\vec3f.h
+	"math.h"
+
+1426979330 source:f:\programmation\c++\interstase\vec3f.cpp
+	"vec3f.h"
+
+1429997427 f:\programmation\c++\interstase\final.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"Champ_Etoiles.h"
+	"Sprites_2d.h"
+	"chargeurs_images/Image.h"
+
+1426502191 source:f:\programmation\c++\interstase\final.cpp
+	"Final.h"
+
+1412871056 f:\programmation\c++\interstase\ville.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"fonctions.h"
+	"Primitives.h"
+	"repere.h"
+	"GestionShaders.h"
+
+1429997427 f:\programmation\c++\interstase\primitives.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+
+1424376054 source:f:\programmation\c++\interstase\primitives.cpp
+	"Primitives.h"
+
+1412601945 source:f:\programmation\c++\interstase\ville.cpp
+	"Ville.h"
+
+1412871062 f:\programmation\c++\interstase\shader.h
+	"GestionShaders.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<string.h>
+
+1409421242 source:f:\programmation\c++\interstase\shader.cpp
+	"Shader.h"
+
+1430389193 f:\programmation\c++\interstase\ville\ville.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"../fonctions.h"
+	"../repere.h"
+	"../ShadersObjets3d/ShadersObjets3d.h"
+	"../chargeurs_images/Image.h"
+	"../Texgen.h"
+	"../vec2f.h"
+	"../FrameBuffers.h"
+	"../Bruit.h"
+	"Elements_Ville.h"
+
+1430232732 source:f:\programmation\c++\interstase\ville\ville.cpp
+	"Ville.h"
+
+1415559159 f:\programmation\c++\interstase\shadersobjets3d\shadersobjets3d.h
+	"../GestionShaders.h"
+	"../Bruit.h"
+	"Shader_Couleur_Rugosite.h"
+	"Shader_Eclairage_Base.h"
+	"Shader_Rugosite.h"
+	"Shader_Aplat_Brut.h"
+	"Shader_Relief.h"
+	"Shader_relief_genCones.h"
+	"Shader_Reflet_eau.h"
+
+1413047177 f:\programmation\c++\interstase\shadersobjets3d\shader_couleur_rugosite.h
+	"../Shader.h"
+
+1413047181 f:\programmation\c++\interstase\shadersobjets3d\shader_eclairage_base.h
+	"../Shader.h"
+
+1413047185 f:\programmation\c++\interstase\shadersobjets3d\shader_rugosite.h
+	"../Shader.h"
+
+1413047187 f:\programmation\c++\interstase\shadersobjets3d\shader_aplat_brut.h
+	"../Shader.h"
+
+1409422042 source:f:\programmation\c++\interstase\shadersobjets3d\shader_aplat_brut.cpp
+	"Shader_Aplat_Brut.h"
+
+1409422050 source:f:\programmation\c++\interstase\shadersobjets3d\shader_couleur_rugosite.cpp
+	"Shader_Couleur_Rugosite.h"
+
+1409422058 source:f:\programmation\c++\interstase\shadersobjets3d\shader_eclairage_base.cpp
+	"Shader_Eclairage_Base.h"
+
+1409422068 source:f:\programmation\c++\interstase\shadersobjets3d\shader_rugosite.cpp
+	"Shader_Rugosite.h"
+
+1424023510 source:f:\programmation\c++\interstase\shadersobjets3d\shadersobjets3d.cpp
+	"ShadersObjets3d.h"
+
+1414093555 source:f:\programmation\c++\interstase\shadersobjets3d\shader_relief.cpp
+	"Shader_Relief.h"
+
+1414093540 f:\programmation\c++\interstase\shadersobjets3d\shader_relief.h
+	"../Shader.h"
+
+1413485857 source:f:\programmation\c++\interstase\shadersobjets3d\shader_relief_gencones.cpp
+	"Shader_relief_genCones.h"
+
+1413485843 f:\programmation\c++\interstase\shadersobjets3d\shader_relief_gencones.h
+	"../Shader.h"
+
+1429997428 f:\programmation\c++\interstase\texgen.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	"chargeurs_images/Image.h"
+	"vec3f.h"
+	"ShadersObjets3d/ShadersObjets3d.h"
+	"ShadersObjets3d/Shader_relief_genCones.h"
+
+1424553609 source:f:\programmation\c++\interstase\texgen.cpp
+	"Texgen.h"
+
+1414346706 f:\programmation\c++\interstase\vec2f.h
+
+1414346457 source:f:\programmation\c++\interstase\vec2f.cpp
+	"Vec2f.h"
+
+1429997492 f:\programmation\c++\interstase\ville\elements_ville.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"../Primitives.h"
+	"../ShadersObjets3d/ShadersObjets3d.h"
+	"Shaders/ShadersVille.h"
+	"../chargeurs_images/Image.h"
+	"../Texgen.h"
+	"../Bruit.h"
+	"../Variables.h"
+
+1430052659 source:f:\programmation\c++\interstase\ville\elements_ville.cpp
+	"Elements_Ville.h"
+
+1425830070 f:\programmation\c++\interstase\shadersobjets3d\shader_reflet_eau.h
+	"../Shader.h"
+
+1425829751 source:f:\programmation\c++\interstase\shadersobjets3d\shader_reflet_eau.cpp
+	"Shader_Reflet_eau.h"
+
+1426270731 f:\programmation\c++\interstase\ville\shaders\shadersville.h
+	"../../GestionShaders.h"
+	"Shader_Fenetre_01.h"
+	"Shader_Fenetre_02.h"
+	"Shader_Fenetre_03.h"
+	"Shader_Fenetre_04.h"
+	"Shader_Vitres.h"
+	"Lumiere_01.h"
+	"Shader_Face_Observateur.h"
+
+1424276999 f:\programmation\c++\interstase\ville\shaders\shader_fenetre_01.h
+	"../../Shader.h"
+
+1424277025 source:f:\programmation\c++\interstase\ville\shaders\shader_fenetre_01.cpp
+	"Shader_Fenetre_01.h"
+
+1426270813 source:f:\programmation\c++\interstase\ville\shaders\shadersville.cpp
+	"ShadersVille.h"
+
+1424372677 f:\programmation\c++\interstase\ville\shaders\shader_face_observateur.h
+	"../../Shader.h"
+
+1424372771 source:f:\programmation\c++\interstase\ville\shaders\shader_face_observateur.cpp
+	"Shader_Face_Observateur.h"
+
+1430048053 f:\programmation\c++\interstase\agnomes.h
+	"Sprites_2d.h"
+	"stdlib.h"
+
+1430048100 source:f:\programmation\c++\interstase\agnomes.cpp
+	"Agnomes.h"
+
+1425845075 f:\programmation\c++\interstase\ville\shaders\shader_fenetre_02.h
+	"../../Shader.h"
+
+1425845134 source:f:\programmation\c++\interstase\ville\shaders\shader_fenetre_02.cpp
+	"Shader_Fenetre_02.h"
+
+1426020748 f:\programmation\c++\interstase\ville\shaders\shader_fenetre_03.h
+	"../../Shader.h"
+
+1426020780 source:f:\programmation\c++\interstase\ville\shaders\shader_fenetre_03.cpp
+	"Shader_Fenetre_03.h"
+
+1426111961 f:\programmation\c++\interstase\ville\shaders\shader_fenetre_04.h
+	"../../Shader.h"
+
+1426111959 source:f:\programmation\c++\interstase\ville\shaders\shader_fenetre_04.cpp
+	"Shader_Fenetre_04.h"
+
+1426249583 f:\programmation\c++\interstase\ville\shaders\lumiere_01.h
+	"../../Shader.h"
+
+1426249628 source:f:\programmation\c++\interstase\ville\shaders\lumiere_01.cpp
+	"Lumiere_01.h"
+
+1426270656 f:\programmation\c++\interstase\ville\shaders\shader_vitres.h
+	"../../Shader.h"
+
+1426270695 source:f:\programmation\c++\interstase\ville\shaders\shader_vitres.cpp
+	"Shader_Vitres.h"
+
+1428098328 source:f:\programmation\c++\interstase\credits_greets.cpp
+	"Credits_Greets.h"
+
+1429997356 f:\programmation\c++\interstase\credits_greets.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"math.h"
+	"Interpolations.h"
+
+1422110750 f:\programmation\c++\interstase\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1428260458 source:f:\programmation\c++\interstase\glew.c
+	"glew.h"
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1430329367 source:f:\programmation\c++\interstase\sauve_rendu.cpp
+	"Sauve_Rendu.h"
+
+1430165065 f:\programmation\c++\interstase\sauve_rendu.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	<libpng12/png.h>
+	"Fonctions.h"
+	"Variables.h"
+	"FrameBuffers.h"
+
+1430048100 source:d:\programmation\c++\interstase\agnomes.cpp
+	"Agnomes.h"
+
+1430048053 d:\programmation\c++\interstase\agnomes.h
+	"Sprites_2d.h"
+	"stdlib.h"
+
+1430046807 d:\programmation\c++\interstase\sprites_2d.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<string>
+	"chargeurs_images/Image.h"
+
+1422110750 d:\programmation\c++\interstase\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1429997438 d:\programmation\c++\interstase\chargeurs_images\image.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<math.h>
+	"Image_infos.h"
+	"Image_TIFF.h"
+	"Image_BMP.h"
+	"Image_JPEG.h"
+
+1409244102 d:\programmation\c++\interstase\chargeurs_images\image_infos.h
+	<iostream>
+
+1465410870 d:\programmation\c++\interstase\chargeurs_images\image_tiff.h
+	"tiffio.h"
+	"Image_infos.h"
+	<string.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1409336488 d:\programmation\c++\interstase\chargeurs_images\image_bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	"../gestion_fichiers.h"
+	"Image_infos.h"
+
+1409244914 d:\programmation\c++\interstase\gestion_fichiers.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+
+1465410887 d:\programmation\c++\interstase\chargeurs_images\image_jpeg.h
+	<string.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"jpeglib.h"
+	"Image_infos.h"
+
+1427470361 source:d:\programmation\c++\interstase\bruit.cpp
+	"Bruit.h"
+
+1429997428 d:\programmation\c++\interstase\bruit.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1428204977 source:d:\programmation\c++\interstase\champ_etoiles.cpp
+	"Champ_etoiles.h"
+
+1429997427 d:\programmation\c++\interstase\champ_etoiles.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"chargeurs_images/Image.h"
+	"vec3f.h"
+
+1426979302 d:\programmation\c++\interstase\vec3f.h
+	"math.h"
+
+1425081787 source:d:\programmation\c++\interstase\chargeurs_images\image.cpp
+	"Image.h"
+
+1409336428 source:d:\programmation\c++\interstase\chargeurs_images\image_bmp.cpp
+	"Image_BMP.h"
+
+1409245048 source:d:\programmation\c++\interstase\chargeurs_images\image_infos.cpp
+	"Image_infos.h"
+
+1409336434 source:d:\programmation\c++\interstase\chargeurs_images\image_jpeg.cpp
+	"Image_JPEG.h"
+
+1409337106 source:d:\programmation\c++\interstase\chargeurs_images\image_tiff.cpp
+	"Image_TIFF.h"
+
+1409849918 source:d:\programmation\c++\interstase\couleurs.cpp
+	"couleurs.h"
+
+1409849952 d:\programmation\c++\interstase\couleurs.h
+	<stdlib.h>
+	<iostream>
+
+1409247238 source:d:\programmation\c++\interstase\courbe_bezier_plan.cpp
+	"Courbe_Bezier_Plan.h"
+
+1409404226 d:\programmation\c++\interstase\courbe_bezier_plan.h
+	"Vec2d.h"
+	"math.h"
+	<iostream>
+
+1409404176 d:\programmation\c++\interstase\vec2d.h
+
+1428098328 source:d:\programmation\c++\interstase\credits_greets.cpp
+	"Credits_Greets.h"
+
+1429997356 d:\programmation\c++\interstase\credits_greets.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"math.h"
+	"Interpolations.h"
+
+1465411689 d:\programmation\c++\interstase\variables.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"Matrice4x4.h"
+	"chargeurs_images/Image.h"
+	"Objets3d/ChargeLWO2.h"
+	"Objets3d/ConvertionLWO2.h"
+	"Sprites_2d.h"
+	"TexteMap.h"
+	"Texgen.h"
+	"Objets3d/Cosmonaute.h"
+	"Raytracer01.h"
+	"repere.h"
+
+1424890618 d:\programmation\c++\interstase\matrice4x4.h
+	"GL/GL.h"
+	<iostream>
+
+1429997446 d:\programmation\c++\interstase\objets3d\chargelwo2.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"../glew.h"
+	<GLFW/glfw3.h>
+	"../chargeurs_images/Image.h"
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+
+1410111976 d:\programmation\c++\interstase\objets3d\convertionlwo2.h
+	"Volume.h"
+	"ChargeLWO2.h"
+
+1429997913 d:\programmation\c++\interstase\objets3d\volume.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<string>
+	"math.h"
+	"AffichagesDebogue.h"
+	"../chargeurs_images/Image.h"
+	"../Matrice4x4.h"
+	"Vecteur.h"
+	"Face.h"
+	"Texture.h"
+	"Surface.h"
+	"../Lumieres.h"
+	"../repere.h"
+	"../ShadersObjets3d/ShadersObjets3d.h"
+
+1429997459 d:\programmation\c++\interstase\objets3d\affichagesdebogue.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	"math.h"
+
+1429997468 d:\programmation\c++\interstase\objets3d\vecteur.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	"math.h"
+
+1429997473 d:\programmation\c++\interstase\objets3d\face.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1429997479 d:\programmation\c++\interstase\objets3d\texture.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<vector>
+	"math.h"
+	"../chargeurs_images/Image.h"
+
+1409424574 d:\programmation\c++\interstase\objets3d\surface.h
+	"Texture.h"
+	"Face.h"
+	<list>
+
+1429997428 d:\programmation\c++\interstase\lumieres.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+
+1429997428 d:\programmation\c++\interstase\repere.h
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	"glew.h"
+	<GLFW/glfw3.h>
+	"math.h"
+	"vec3f.h"
+
+1415559159 d:\programmation\c++\interstase\shadersobjets3d\shadersobjets3d.h
+	"../GestionShaders.h"
+	"../Bruit.h"
+	"Shader_Couleur_Rugosite.h"
+	"Shader_Eclairage_Base.h"
+	"Shader_Rugosite.h"
+	"Shader_Aplat_Brut.h"
+	"Shader_Relief.h"
+	"Shader_relief_genCones.h"
+	"Shader_Reflet_eau.h"
+
+1429997428 d:\programmation\c++\interstase\gestionshaders.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+
+1413047177 d:\programmation\c++\interstase\shadersobjets3d\shader_couleur_rugosite.h
+	"../Shader.h"
+
+1412871062 d:\programmation\c++\interstase\shader.h
+	"GestionShaders.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<string.h>
+
+1413047181 d:\programmation\c++\interstase\shadersobjets3d\shader_eclairage_base.h
+	"../Shader.h"
+
+1413047185 d:\programmation\c++\interstase\shadersobjets3d\shader_rugosite.h
+	"../Shader.h"
+
+1413047187 d:\programmation\c++\interstase\shadersobjets3d\shader_aplat_brut.h
+	"../Shader.h"
+
+1414093540 d:\programmation\c++\interstase\shadersobjets3d\shader_relief.h
+	"../Shader.h"
+
+1413485843 d:\programmation\c++\interstase\shadersobjets3d\shader_relief_gencones.h
+	"../Shader.h"
+
+1425830070 d:\programmation\c++\interstase\shadersobjets3d\shader_reflet_eau.h
+	"../Shader.h"
+
+1426198200 d:\programmation\c++\interstase\textemap.h
+	"chargeurs_images/Image.h"
+	"gestion_fichiers.h"
+
+1429997428 d:\programmation\c++\interstase\texgen.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	"chargeurs_images/Image.h"
+	"vec3f.h"
+	"ShadersObjets3d/ShadersObjets3d.h"
+	"ShadersObjets3d/Shader_relief_genCones.h"
+
+1429997484 d:\programmation\c++\interstase\objets3d\cosmonaute.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<string>
+	"math.h"
+	"ChargeLWO2.h"
+	"ConvertionLWO2.h"
+	"../Lumieres.h"
+	"Volume.h"
+	"../Bruit.h"
+
+1411993425 d:\programmation\c++\interstase\raytracer01.h
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+
+1429997428 d:\programmation\c++\interstase\fonctions.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"Musique.h"
+	"repere.h"
+	"FrameBuffers.h"
+	"ShadersDemo.h"
+	"Intro.h"
+	"HypnoStructure.h"
+	"Final.h"
+	"WaterWorld.h"
+	"SphereDance.h"
+	"Mandelbrot.h"
+	"Ville/Ville.h"
+	"editeur_trajectoire.h"
+
+1425682984 d:\programmation\c++\interstase\musique.h
+	"bass/bass.h"
+	<iostream>
+
+1430329981 d:\programmation\c++\interstase\framebuffers.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	"Variables.h"
+
+1430049891 d:\programmation\c++\interstase\shadersdemo.h
+	"GestionShaders.h"
+	"Variables.h"
+
+1429997428 d:\programmation\c++\interstase\intro.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"Champ_Etoiles.h"
+
+1429997428 d:\programmation\c++\interstase\hypnostructure.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+	"Variables.h"
+	"fonctions.h"
+	"Lumieres.h"
+	"repere.h"
+	"vec3f.h"
+	"Primitives.h"
+
+1429997427 d:\programmation\c++\interstase\primitives.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	"math.h"
+
+1429997427 d:\programmation\c++\interstase\final.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"Champ_Etoiles.h"
+	"Sprites_2d.h"
+	"chargeurs_images/Image.h"
+
+1429997427 d:\programmation\c++\interstase\waterworld.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"math.h"
+	"Variables.h"
+	"Interpolations.h"
+	"repere.h"
+	"Fonctions.h"
+	"Objets3d/Volume.h"
+	"Agnomes.h"
+	"time.h"
+
+1429997428 d:\programmation\c++\interstase\interpolations.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"Courbe_Bezier_Plan.h"
+
+1429997428 d:\programmation\c++\interstase\spheredance.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"repere.h"
+	"Variables.h"
+	"fonctions.h"
+	"FrameBuffers.h"
+	"Trajectoire.h"
+	"math.h"
+
+1429997427 d:\programmation\c++\interstase\trajectoire.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"math.h"
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	"gestion_fichiers.h"
+
+1429997427 d:\programmation\c++\interstase\mandelbrot.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	"Variables.h"
+	"fonctions.h"
+	"couleurs.h"
+	"Bruit.h"
+	"Champ_Etoiles.h"
+	"math.h"
+
+1475936090 d:\programmation\c++\interstase\ville\ville.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"../fonctions.h"
+	"../repere.h"
+	"../ShadersObjets3d/ShadersObjets3d.h"
+	"../chargeurs_images/Image.h"
+	"../Texgen.h"
+	"../vec2f.h"
+	"../FrameBuffers.h"
+	"../Bruit.h"
+	"Elements_Ville.h"
+
+1414346706 d:\programmation\c++\interstase\vec2f.h
+
+1429997492 d:\programmation\c++\interstase\ville\elements_ville.h
+	"../glew.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"../Primitives.h"
+	"../ShadersObjets3d/ShadersObjets3d.h"
+	"Shaders/ShadersVille.h"
+	"../chargeurs_images/Image.h"
+	"../Texgen.h"
+	"../Bruit.h"
+	"../Variables.h"
+
+1426270731 d:\programmation\c++\interstase\ville\shaders\shadersville.h
+	"../../GestionShaders.h"
+	"Shader_Fenetre_01.h"
+	"Shader_Fenetre_02.h"
+	"Shader_Fenetre_03.h"
+	"Shader_Fenetre_04.h"
+	"Shader_Vitres.h"
+	"Lumiere_01.h"
+	"Shader_Face_Observateur.h"
+
+1424276999 d:\programmation\c++\interstase\ville\shaders\shader_fenetre_01.h
+	"../../Shader.h"
+
+1425845075 d:\programmation\c++\interstase\ville\shaders\shader_fenetre_02.h
+	"../../Shader.h"
+
+1426020748 d:\programmation\c++\interstase\ville\shaders\shader_fenetre_03.h
+	"../../Shader.h"
+
+1426111961 d:\programmation\c++\interstase\ville\shaders\shader_fenetre_04.h
+	"../../Shader.h"
+
+1426270656 d:\programmation\c++\interstase\ville\shaders\shader_vitres.h
+	"../../Shader.h"
+
+1426249583 d:\programmation\c++\interstase\ville\shaders\lumiere_01.h
+	"../../Shader.h"
+
+1424372677 d:\programmation\c++\interstase\ville\shaders\shader_face_observateur.h
+	"../../Shader.h"
+
+1427132345 d:\programmation\c++\interstase\editeur_trajectoire.h
+	<stdlib.h>
+	"trajectoire.h"
+
+1427315117 source:d:\programmation\c++\interstase\editeur_trajectoire.cpp
+	"editeur_trajectoire.h"
+
+1426502191 source:d:\programmation\c++\interstase\final.cpp
+	"Final.h"
+
+1430062588 source:d:\programmation\c++\interstase\fonctions.cpp
+	"Fonctions.h"
+
+1430330044 source:d:\programmation\c++\interstase\framebuffers.cpp
+	"FrameBuffers.h"
+	"Fonctions.h"
+
+1409244974 source:d:\programmation\c++\interstase\gestion_fichiers.cpp
+	"gestion_fichiers.h"
+
+1409421476 source:d:\programmation\c++\interstase\gestionshaders.cpp
+	"GestionShaders.h"
+
+1428260458 source:d:\programmation\c++\interstase\glew.c
+	"glew.h"
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1427132317 source:d:\programmation\c++\interstase\hypnostructure.cpp
+	"hypnostructure.h"
+
+1427322399 source:d:\programmation\c++\interstase\interpolations.cpp
+	"Interpolations.h"
+
+1428205023 source:d:\programmation\c++\interstase\intro.cpp
+	"Intro.h"
+
+1412600966 source:d:\programmation\c++\interstase\lumieres.cpp
+	"Lumieres.h"
+
+1430387520 source:d:\programmation\c++\interstase\main.cpp
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	<algorithm>
+	"math.h"
+	"gestion_fichiers.h"
+	"matrice4x4.h"
+	"chargeurs_images/Image.h"
+	"Musique.h"
+	"repere.h"
+	"Variables.h"
+	"FrameBuffers.h"
+	"fonctions.h"
+	"Intro.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"Final.h"
+	"editeur_trajectoire.h"
+	"Ville/Ville.h"
+	"ShadersObjets3d/ShadersObjets3d.h"
+	"Ville/Shaders/ShadersVille.h"
+	"bass/bass.h"
+	"timeline.cpp"
+
+1465411632 d:\programmation\c++\interstase\timeline.cpp
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	"math.h"
+	"Variables.h"
+	"Musique.h"
+	"fonctions.h"
+	"Intro.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"Final.h"
+	"Ville/Ville.h"
+	"editeur_trajectoire.h"
+	"repere.h"
+	"chargeurs_images/Image.h"
+	"Interpolations.h"
+	"Trajectoire.h"
+	"Credits_Greets.h"
+	"Sauve_Rendu.h"
+
+1430165065 d:\programmation\c++\interstase\sauve_rendu.h
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	<libpng12/png.h>
+	"Fonctions.h"
+	"Variables.h"
+	"FrameBuffers.h"
+
+1430049653 source:d:\programmation\c++\interstase\mandelbrot.cpp
+	"mandelbrot.h"
+
+1424890720 source:d:\programmation\c++\interstase\matrice4x4.cpp
+	"Matrice4x4.h"
+
+1409404486 source:d:\programmation\c++\interstase\musique.cpp
+	"Musique.h"
+
+1409423466 source:d:\programmation\c++\interstase\objets3d\affichagesdebogue.cpp
+	"AffichagesDebogue.h"
+
+1410110888 source:d:\programmation\c++\interstase\objets3d\chargelwo2.cpp
+	"ChargeLWO2.h"
+
+1410113378 source:d:\programmation\c++\interstase\objets3d\convertionlwo2.cpp
+	"ConvertionLWO2.h"
+
+1424985277 source:d:\programmation\c++\interstase\objets3d\cosmonaute.cpp
+	"Cosmonaute.h"
+
+1409433152 source:d:\programmation\c++\interstase\objets3d\debug_volume_affiche.cpp
+
+1409423774 source:d:\programmation\c++\interstase\objets3d\face.cpp
+	"Face.h"
+
+1409424728 source:d:\programmation\c++\interstase\objets3d\surface.cpp
+	"Surface.h"
+
+1409424128 source:d:\programmation\c++\interstase\objets3d\texture.cpp
+	"Texture.h"
+
+1409423308 source:d:\programmation\c++\interstase\objets3d\vecteur.cpp
+	"Vecteur.h"
+
+1427061356 source:d:\programmation\c++\interstase\objets3d\volume.cpp
+	"Volume.h"
+	"debug_volume_affiche.cpp"
+
+1409433152 d:\programmation\c++\interstase\objets3d\debug_volume_affiche.cpp
+
+1424376054 source:d:\programmation\c++\interstase\primitives.cpp
+	"Primitives.h"
+
+1411993382 source:d:\programmation\c++\interstase\raytracer01.cpp
+	"Raytracer01.h"
+
+1427154180 source:d:\programmation\c++\interstase\repere.cpp
+	"repere.h"
+
+1430329367 source:d:\programmation\c++\interstase\sauve_rendu.cpp
+	"Sauve_Rendu.h"
+
+1409421242 source:d:\programmation\c++\interstase\shader.cpp
+	"Shader.h"
+
+1430050162 source:d:\programmation\c++\interstase\shadersdemo.cpp
+	"ShadersDemo.h"
+
+1409422042 source:d:\programmation\c++\interstase\shadersobjets3d\shader_aplat_brut.cpp
+	"Shader_Aplat_Brut.h"
+
+1409422050 source:d:\programmation\c++\interstase\shadersobjets3d\shader_couleur_rugosite.cpp
+	"Shader_Couleur_Rugosite.h"
+
+1409422058 source:d:\programmation\c++\interstase\shadersobjets3d\shader_eclairage_base.cpp
+	"Shader_Eclairage_Base.h"
+
+1425829751 source:d:\programmation\c++\interstase\shadersobjets3d\shader_reflet_eau.cpp
+	"Shader_Reflet_eau.h"
+
+1414093555 source:d:\programmation\c++\interstase\shadersobjets3d\shader_relief.cpp
+	"Shader_Relief.h"
+
+1413485857 source:d:\programmation\c++\interstase\shadersobjets3d\shader_relief_gencones.cpp
+	"Shader_relief_genCones.h"
+
+1409422068 source:d:\programmation\c++\interstase\shadersobjets3d\shader_rugosite.cpp
+	"Shader_Rugosite.h"
+
+1424023510 source:d:\programmation\c++\interstase\shadersobjets3d\shadersobjets3d.cpp
+	"ShadersObjets3d.h"
+
+1430050051 source:d:\programmation\c++\interstase\spheredance.cpp
+	"spheredance.h"
+
+1430047607 source:d:\programmation\c++\interstase\sprites_2d.cpp
+	"Sprites_2d.h"
+
+1424553609 source:d:\programmation\c++\interstase\texgen.cpp
+	"Texgen.h"
+
+1426200257 source:d:\programmation\c++\interstase\textemap.cpp
+	"TexteMap.h"
+
+1465411632 source:d:\programmation\c++\interstase\timeline.cpp
+	"glew.h"
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<string>
+	"math.h"
+	"Variables.h"
+	"Musique.h"
+	"fonctions.h"
+	"Intro.h"
+	"waterworld.h"
+	"mandelbrot.h"
+	"spheredance.h"
+	"hypnostructure.h"
+	"Final.h"
+	"Ville/Ville.h"
+	"editeur_trajectoire.h"
+	"repere.h"
+	"chargeurs_images/Image.h"
+	"Interpolations.h"
+	"Trajectoire.h"
+	"Credits_Greets.h"
+	"Sauve_Rendu.h"
+
+1426974372 source:d:\programmation\c++\interstase\trajectoire.cpp
+	"Trajectoire.h"
+
+1430233410 source:d:\programmation\c++\interstase\variables.cpp
+	"Variables.h"
+
+1409404496 source:d:\programmation\c++\interstase\vec2d.cpp
+	"Vec2d.h"
+
+1414346457 source:d:\programmation\c++\interstase\vec2f.cpp
+	"Vec2f.h"
+
+1426979330 source:d:\programmation\c++\interstase\vec3f.cpp
+	"vec3f.h"
+
+1430052659 source:d:\programmation\c++\interstase\ville\elements_ville.cpp
+	"Elements_Ville.h"
+
+1426249628 source:d:\programmation\c++\interstase\ville\shaders\lumiere_01.cpp
+	"Lumiere_01.h"
+
+1424372771 source:d:\programmation\c++\interstase\ville\shaders\shader_face_observateur.cpp
+	"Shader_Face_Observateur.h"
+
+1424277025 source:d:\programmation\c++\interstase\ville\shaders\shader_fenetre_01.cpp
+	"Shader_Fenetre_01.h"
+
+1425845134 source:d:\programmation\c++\interstase\ville\shaders\shader_fenetre_02.cpp
+	"Shader_Fenetre_02.h"
+
+1426020780 source:d:\programmation\c++\interstase\ville\shaders\shader_fenetre_03.cpp
+	"Shader_Fenetre_03.h"
+
+1426111959 source:d:\programmation\c++\interstase\ville\shaders\shader_fenetre_04.cpp
+	"Shader_Fenetre_04.h"
+
+1426270695 source:d:\programmation\c++\interstase\ville\shaders\shader_vitres.cpp
+	"Shader_Vitres.h"
+
+1426270813 source:d:\programmation\c++\interstase\ville\shaders\shadersville.cpp
+	"ShadersVille.h"
+
+1475862437 source:d:\programmation\c++\interstase\ville\ville.cpp
+	"Ville.h"
+
+1430050033 source:d:\programmation\c++\interstase\waterworld.cpp
+	"WaterWorld.h"
+
