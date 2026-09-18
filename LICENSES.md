@@ -12,6 +12,7 @@ parts of this repository are covered by different licenses, described below.
 | 3D model of the astronaut | CC0 1.0 | François Gutherz (Fra) |
 | Soundtrack `musique/interstase.ogg` | CC BY-NC 4.0 | Gwenaël Dano (Gwen) & Eric Kernin (Erk) |
 | 3D model of the spaceship, demo title logo | CC BY-NC 4.0 | Gwenaël Dano (Gwen) |
+| Mankind group logo | CC BY-NC 4.0 | Jérôme Sentex (Tex) |
 | Bundled third-party libraries | see [THIRD-PARTY.md](THIRD-PARTY.md) | third parties |
 
 ## Source code — MIT
@@ -30,7 +31,8 @@ dedicated to the public domain under
 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 (`SPDX-License-Identifier: CC0-1.0`). This covers:
 
-- `images/**` — textures, logos, backgrounds (except the title logo, see below)
+- `images/**` — textures, logos, backgrounds (except the title logo and the
+  Mankind logo, see below)
 - `textures_ville/**` — city colour, normal and relief maps
 - `polices/**` — bitmap font sheets
 - `trajectoires/**` — camera and object motion paths
@@ -72,9 +74,19 @@ Note on the thumbnail: `Interstase.jpg` is a screenshot of the demo that
 features the title logo, so as a composite work it falls under the same CC BY-NC
 4.0 terms.
 
+### Mankind group logo — CC BY-NC 4.0
+
+- `images/mankind_logo.tif`
+
+Copyright (c) 2015 **Jérôme Sentex (Tex)**, licensed under
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+(`SPDX-License-Identifier: CC-BY-NC-4.0`). You may share and adapt it for
+**non-commercial** purposes, provided you give appropriate credit.
+
 ## Attribution
 
 When credit is required (or simply welcome), the following is enough:
 
 > Interstase by Mankind — Eric Kernin (Erk), Gwenaël Dano (Gwen),
-> François Gutherz (Fra) — https://github.com/ErkMkd/Interstase
+> François Gutherz (Fra), Jérôme Sentex (Tex) —
+> https://github.com/ErkMkd/Interstase
