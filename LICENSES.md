@@ -9,7 +9,7 @@ parts of this repository are covered by different licenses, described below.
 | --- | --- | --- |
 | Source code, shaders, project files | MIT | Eric Kernin (Erk) |
 | Assets (graphics, textures, fonts, 3D models, trajectories) | CC0 1.0 | Eric Kernin (Erk) |
-| 3D model of the astronaut | CC0 1.0 | François Guterz (Fra) |
+| 3D model of the astronaut | CC0 1.0 | François Gutherz (Fra) |
 | Soundtrack `musique/interstase.ogg` | CC BY-NC 4.0 | Gwenaël Dano (Gwen) & Eric Kernin (Erk) |
 | 3D model of the spaceship, demo title logo | CC BY-NC 4.0 | Gwenaël Dano (Gwen) |
 | Bundled third-party libraries | see [THIRD-PARTY.md](THIRD-PARTY.md) | third parties |
@@ -46,7 +46,7 @@ always appreciated.
 
 - `lwo/cosmo_hi_articule.lwo`
 
-Copyright waived by **François Guterz (Fra)** under
+Copyright waived by **François Gutherz (Fra)** under
 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 (`SPDX-License-Identifier: CC0-1.0`).
 
@@ -77,4 +77,4 @@ features the title logo, so as a composite work it falls under the same CC BY-NC
 When credit is required (or simply welcome), the following is enough:
 
 > Interstase by Mankind — Eric Kernin (Erk), Gwenaël Dano (Gwen),
-> François Guterz (Fra) — https://github.com/ErkMkd/Interstase
+> François Gutherz (Fra) — https://github.com/ErkMkd/Interstase
